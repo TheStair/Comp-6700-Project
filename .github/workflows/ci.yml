@@ -23,13 +23,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
-          key: gemma-3-1b-it
+          key: google/gemma-3-1b-it
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Login to HuggingFace
-        run: huggingface-cli login --token ${{ secrets.HF_TOKEN }}
+        run: hf auth login --token ${{ secrets.HF_TOKEN }}
 
       - name: Install Kubescape
         run: curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash

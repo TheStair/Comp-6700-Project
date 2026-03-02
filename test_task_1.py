@@ -44,7 +44,7 @@ def test_extract_kdes(tmp_path):
         ]
     }]]
 
-    with patch("pipeline.pipe", return_value=mock_output):
+    with patch("task_1.pipe", return_value=mock_output):
         dummy_pdf = tmp_path / "test.pdf"
         dummy_pdf.write_bytes(b"%PDF-1.4 test")  # minimal fake pdf
         result = extract_kdes("some document text", str(dummy_pdf))
@@ -54,7 +54,7 @@ def test_extract_kdes(tmp_path):
 
 # ── Test 6: collect_output ──────────────────────────────────────────────────
 def test_collect_output(tmp_path):
-    with patch("pipeline.OUTPUT_DIR", str(tmp_path)):
+    with patch("task_1_1.OUTPUT_DIR", str(tmp_path)):
         collect_output(
             llm_name="google/gemma-3-1b-it",
             prompt="test prompt",
