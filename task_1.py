@@ -3,7 +3,7 @@ from transformers import pipeline
 
 
 OUTPUT_DIR = "output"
-
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 if torch.cuda.is_available():        # CUDA (NVIDIA)
@@ -167,8 +167,6 @@ def extract_kdes(text: str, input_path: str) -> dict:
 
 def collect_output(llm_name: str, prompt: str, prompt_type: str, llm_output: str, output_file: str = "llm_outputs.txt") -> None:
     """Collects LLM output and appends it to a formatted text file."""
-    OUTPUT_DIR = "output"
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     with open(os.path.join(OUTPUT_DIR, output_file), "a") as f:
         f.write(f"*LLM Name*\n{llm_name}\n\n")
