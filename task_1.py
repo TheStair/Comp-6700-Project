@@ -2,12 +2,6 @@ import torch, os, fitz, yaml, sys
 from transformers import pipeline
 
 
-PROMPTS = [
-("zero-shot", construct_zero_shot),
-("few-shot", construct_few_shot),
-("chain-of-thought", construct_cot),
-]
-
 OUTPUT_DIR = "output"
 
 
@@ -127,9 +121,17 @@ def construct_cot(document_text: str):
         {document_text}"""
     return prompt
 
+
+
+
 def extract_kdes(text: str, input_path: str) -> dict:
     """Uses Gemma-3-1B with all three prompts to extract KDEs, saves to YAML, returns last result."""
 
+    PROMPTS = [
+    ("zero-shot", construct_zero_shot),
+    ("few-shot", construct_few_shot),
+    ("chain-of-thought", construct_cot),
+    ]
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     base_name = os.path.splitext(os.path.basename(input_path))[0]
 
