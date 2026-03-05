@@ -110,13 +110,19 @@ def run_kubescape(controls_file: str, yamls_zip: str = "project-yamls.zip") -> p
     for result in data.get("results", []):
         resource_id = result.get("resourceID", "")
         for control in result.get("controls", []):
+            status = control.get("status", {}).get("status", "")
+            rules = control.get("rules", [])
+            failed = sum(1 for r in rules if r.get("status") == "failed")
+            total = len(rules)
+            compliance = round((total - failed) / total, 2) if total > 0 else 0.0
+
             rows.append({
                 "FilePath":         resource_id,
-                "Severity":         control.get("severity", {}).get("severity", ""),
+                "Severity":         control.get("severity", ""),
                 "Control name":     control.get("name", ""),
-                "Failed resources": control.get("summary", {}).get("failedResources", 0),
-                "All Resources":    control.get("summary", {}).get("allResources", 0),
-                "Compliance score": control.get("summary", {}).get("complianceScore", 0.0),
+                "Failed resources": failed,
+                "All Resources":    total,
+                "Compliance score": compliance,
             })
 
     return pd.DataFrame(rows, columns=["FilePath", "Severity", "Control name",
