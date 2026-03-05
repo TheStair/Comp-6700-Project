@@ -1,4 +1,4 @@
-import torch, os, fitz, yaml, sys
+import torch, os, fitz, yaml, sys, re
 from transformers import pipeline
 
 
@@ -23,6 +23,28 @@ pipe = pipeline(
 )
 
 input_dir = "input_files/"
+
+def chunk_by_section(text: str) -> list[str]:
+    """Split document text on CIS control boundaries (1.1, 1.2, 2.1 etc.)"""
+    # Split on lines that start a new numbered control
+    pattern = r'(?=^\d+\.\d+[\s\t])'
+    sections = re.split(pattern, text, flags=re.MULTILINE)
+    
+    # Group sections into chunks that fit in context window
+    chunks = []
+    current_chunk = ""
+    for section in sections:
+        if len(current_chunk) + len(section) > 8000:
+            if current_chunk:
+                chunks.append(current_chunk)
+            current_chunk = section
+        else:
+            current_chunk += section
+    
+    if current_chunk:
+        chunks.append(current_chunk)
+    
+    return chunks
 
 def load_documents(path1: str, path2: str) -> tuple[str, str]:
     """Takes two PDF filepaths, validates them, returns extracted text."""
@@ -124,43 +146,51 @@ def construct_cot(document_text: str):
 
 
 
-def extract_kdes(text: str, input_path: str) -> dict:
-    """Uses Gemma-3-1B with all three prompts to extract KDEs, saves to YAML, returns last result."""
+def extract_kdes(text: str, input_path: str, chunk: bool = False) -> dict:
+    """Uses Gemma-3-1B with all three prompts to extract KDEs, saves to YAML, returns results."""
 
     PROMPTS = [
-    ("zero-shot", construct_zero_shot),
-    ("few-shot", construct_few_shot),
-    ("chain-of-thought", construct_cot),
+        ("zero-shot", construct_zero_shot),
+        ("few-shot", construct_few_shot),
+        ("chain-of-thought", construct_cot),
     ]
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     base_name = os.path.splitext(os.path.basename(input_path))[0]
+    chunks = chunk_by_section(text) if chunk else [text]
 
     results = {}
     for prompt_type, prompt_fn in PROMPTS:
-        prompt = prompt_fn(text)
-        
-        messages = [{"role": "user", "content": prompt}]
-        output = pipe(messages, max_new_tokens=1000)
-        response = output[0][0]['generated_text'][-1]['content']
+        merged_kdes = {}
 
-        try:
-            kdes = yaml.safe_load(response)
-        except yaml.YAMLError:
-            kdes = {}
+        for chunk_text in chunks:
+            prompt = prompt_fn(chunk_text)
+            messages = [{"role": "user", "content": prompt}]
+            output = pipe(messages, max_new_tokens=1000)
+            response = output[0]['generated_text'][-1]['content']
+
+            if "YAML OUTPUT:" in response:
+                response = response.split("YAML OUTPUT:")[-1].strip()
+
+            try:
+                kdes = yaml.safe_load(response)
+                if isinstance(kdes, dict):
+                    merged_kdes.update(kdes)
+            except yaml.YAMLError:
+                pass
 
         output_filename = os.path.join(OUTPUT_DIR, f"{base_name}-kdes.yaml")
         with open(output_filename, "a") as f:
-            yaml.dump({prompt_type: kdes}, f, default_flow_style=False)
+            yaml.dump({prompt_type: merged_kdes}, f, default_flow_style=False)
             f.write("\n")
 
         collect_output(
             llm_name="google/gemma-3-1b-it",
-            prompt=prompt,
+            prompt=prompt_fn("..."),
             prompt_type=prompt_type,
-            llm_output=str(kdes)
+            llm_output=str(merged_kdes)
         )
 
-        results[prompt_type] = kdes
+        results[prompt_type] = merged_kdes
 
     return results
 
