@@ -1,0 +1,13 @@
+Boundary Defense,12
+Boundary Defense,5.4.4 Ensure Only Approved Ports, Protocols and Services Are Running
+Boundary Defense,9.2 Ensure Only Approved Ports, Protocols and Services Are Running
+Boundary Defense,9.4 Apply Host-based Firewalls or Port Filtering
+Boundary Defense,v7
+Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated),24
+Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated),27
+Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated),30
+Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated),27
+Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated),30
+Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated),33
+Ensure that the kubelet configuration file ownership is set to root:root (Automated),30
+Restrict Administrator Privileges,Administrator privileges restricted to dedicated administrator accounts

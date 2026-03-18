@@ -1,0 +1,771 @@
+FilePath,Severity,Control name,Failed resources,All Resources,Compliance score
+path=1822279900/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=1822279900/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=968033596/api=apps/v1//Deployment/argocd-applicationset-controller,High,Writable hostPath mount,0,1,1.0
+path=968033596/api=apps/v1//Deployment/argocd-applicationset-controller,High,Insecure capabilities,0,1,1.0
+path=1405774741/api=apps/v1/openshift-monitoring/Deployment/pyrra-kubernetes,High,Writable hostPath mount,0,1,1.0
+path=1405774741/api=apps/v1/openshift-monitoring/Deployment/pyrra-kubernetes,High,Insecure capabilities,0,1,1.0
+path=157929365/api=apps/v1//Deployment/pgo,High,Writable hostPath mount,0,1,1.0
+path=157929365/api=apps/v1//Deployment/pgo,High,Insecure capabilities,0,1,1.0
+path=4098658857/api=apps/v1/sock-shop/Deployment/carts,High,Writable hostPath mount,0,1,1.0
+path=4098658857/api=apps/v1/sock-shop/Deployment/carts,High,Insecure capabilities,0,1,1.0
+path=861020053/api=apps/v1/kong/Deployment/proxy-kong,High,Writable hostPath mount,0,1,1.0
+path=861020053/api=apps/v1/kong/Deployment/proxy-kong,High,Insecure capabilities,0,1,1.0
+path=1825174755/api=apps/v1//Deployment/ratings-v2,High,Writable hostPath mount,0,1,1.0
+path=1825174755/api=apps/v1//Deployment/ratings-v2,High,Insecure capabilities,0,1,1.0
+path=2627821586/api=apps/v1/flux-system/Deployment/credentials-sync,High,Writable hostPath mount,0,1,1.0
+path=2627821586/api=apps/v1/flux-system/Deployment/credentials-sync,High,Insecure capabilities,0,1,1.0
+path=2708849797/api=apps/v1/flux-system/Deployment/credentials-sync,High,Writable hostPath mount,0,1,1.0
+path=2708849797/api=apps/v1/flux-system/Deployment/credentials-sync,High,Insecure capabilities,0,1,1.0
+path=2963601489/api=apps/v1//Deployment/liveness-http,High,Writable hostPath mount,0,1,1.0
+path=2963601489/api=apps/v1//Deployment/liveness-http,High,Insecure capabilities,0,1,1.0
+path=2752529303/api=apps/v1//Deployment/reviews-v1,High,Writable hostPath mount,0,1,1.0
+path=2752529303/api=apps/v1//Deployment/reviews-v1,High,Insecure capabilities,0,1,1.0
+path=4183595350/api=/v1//Pod/sample-app-pod,High,Writable hostPath mount,0,1,1.0
+path=4183595350/api=/v1//Pod/sample-app-pod,High,Insecure capabilities,0,1,1.0
+path=1839955011/api=apps/v1/monitoring/Deployment/prometheus-deployment,High,Writable hostPath mount,0,1,1.0
+path=1839955011/api=apps/v1/monitoring/Deployment/prometheus-deployment,High,Insecure capabilities,0,1,1.0
+path=2960340052/api=apps/v1//Deployment/redis,High,Writable hostPath mount,0,1,1.0
+path=2960340052/api=apps/v1//Deployment/redis,High,Insecure capabilities,0,1,1.0
+path=755007494/api=apps/v1//Deployment/opentelemetry-collector,High,Writable hostPath mount,0,1,1.0
+path=755007494/api=apps/v1//Deployment/opentelemetry-collector,High,Insecure capabilities,0,1,1.0
+path=464344698/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=464344698/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=4232516004/api=apps/v1//Deployment/grafana-operator-controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4232516004/api=apps/v1//Deployment/grafana-operator-controller-manager,High,Insecure capabilities,0,1,1.0
+path=3957626901/api=apps/v1//Deployment/workflow-controller,High,Writable hostPath mount,0,1,1.0
+path=3957626901/api=apps/v1//Deployment/workflow-controller,High,Insecure capabilities,0,1,1.0
+path=983238291/api=apps/v1//Deployment/pgo,High,Writable hostPath mount,0,1,1.0
+path=983238291/api=apps/v1//Deployment/pgo,High,Insecure capabilities,0,1,1.0
+path=3905825958/api=apps/v1/argocd/StatefulSet/argocd-redis-ha-server,High,Writable hostPath mount,0,1,1.0
+path=3905825958/api=apps/v1/argocd/StatefulSet/argocd-redis-ha-server,High,Insecure capabilities,0,1,1.0
+path=1561294184/api=apps/v1/default/Deployment/longhorn-test-nfs,High,Writable hostPath mount,0,1,1.0
+path=1561294184/api=apps/v1/default/Deployment/longhorn-test-nfs,High,Insecure capabilities,1,1,0.0
+path=1001588834/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=1001588834/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=785371216/api=apps/v1//Deployment/nfs-client-provisioner,High,Writable hostPath mount,0,1,1.0
+path=785371216/api=apps/v1//Deployment/nfs-client-provisioner,High,Insecure capabilities,0,1,1.0
+path=1865522105/api=apps/v1//Deployment/argocd-notifications-controller,High,Writable hostPath mount,0,1,1.0
+path=1865522105/api=apps/v1//Deployment/argocd-notifications-controller,High,Insecure capabilities,0,1,1.0
+path=3833413981/api=apps/v1/istio-system/Deployment/jaeger,High,Writable hostPath mount,0,1,1.0
+path=3833413981/api=apps/v1/istio-system/Deployment/jaeger,High,Insecure capabilities,0,1,1.0
+path=107013662/api=apps/v1//Deployment/tcp-echo-v1,High,Writable hostPath mount,0,1,1.0
+path=107013662/api=apps/v1//Deployment/tcp-echo-v1,High,Insecure capabilities,0,1,1.0
+path=497266587/api=apps/v1//StatefulSet/nacos,High,Writable hostPath mount,0,1,1.0
+path=497266587/api=apps/v1//StatefulSet/nacos,High,Insecure capabilities,0,1,1.0
+path=3160171497/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=3160171497/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=4189391590/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=4189391590/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=420772996/api=apps/v1//Deployment/helloworld-v2,High,Writable hostPath mount,0,1,1.0
+path=420772996/api=apps/v1//Deployment/helloworld-v2,High,Insecure capabilities,0,1,1.0
+path=2694124720/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2694124720/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=4130217453/api=apps/v1//Deployment/reviews-v3,High,Writable hostPath mount,0,1,1.0
+path=4130217453/api=apps/v1//Deployment/reviews-v3,High,Insecure capabilities,0,1,1.0
+path=2008158967/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Writable hostPath mount,0,1,1.0
+path=2008158967/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Insecure capabilities,0,1,1.0
+path=3314971907/api=apps/v1//Deployment/redis,High,Writable hostPath mount,0,1,1.0
+path=3314971907/api=apps/v1//Deployment/redis,High,Insecure capabilities,0,1,1.0
+path=2264299642/api=apps/v1/secure/Deployment/frontend,High,Writable hostPath mount,0,1,1.0
+path=2264299642/api=apps/v1/secure/Deployment/frontend,High,Insecure capabilities,0,1,1.0
+path=2964837069/api=apps/v1/monitoring/Deployment/mysql-exporter,High,Writable hostPath mount,0,1,1.0
+path=2964837069/api=apps/v1/monitoring/Deployment/mysql-exporter,High,Insecure capabilities,0,1,1.0
+path=1633278120/api=apps/v1/kube-system/Deployment/seldon-spartakus-volunteer,High,Writable hostPath mount,0,1,1.0
+path=1633278120/api=apps/v1/kube-system/Deployment/seldon-spartakus-volunteer,High,Insecure capabilities,0,1,1.0
+path=3542147899/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Writable hostPath mount,1,1,0.0
+path=3542147899/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Insecure capabilities,1,1,0.0
+path=2914628456/api=apps/v1//Deployment/chaos-exporter,High,Writable hostPath mount,0,1,1.0
+path=2914628456/api=apps/v1//Deployment/chaos-exporter,High,Insecure capabilities,0,1,1.0
+path=825557715/api=apps/v1//Deployment/argocd-notifications-controller,High,Writable hostPath mount,0,1,1.0
+path=825557715/api=apps/v1//Deployment/argocd-notifications-controller,High,Insecure capabilities,0,1,1.0
+path=2497000902/api=apps/v1//Deployment/litmusportal-frontend,High,Writable hostPath mount,0,1,1.0
+path=2497000902/api=apps/v1//Deployment/litmusportal-frontend,High,Insecure capabilities,0,1,1.0
+path=2622165986/api=apps/v1//Deployment/details-v1,High,Writable hostPath mount,0,1,1.0
+path=2622165986/api=apps/v1//Deployment/details-v1,High,Insecure capabilities,0,1,1.0
+path=4226750949/api=apps/v1//DaemonSet/longhorn-nvme-cli-installation,High,Writable hostPath mount,0,1,1.0
+path=4226750949/api=apps/v1//DaemonSet/longhorn-nvme-cli-installation,High,Insecure capabilities,0,1,1.0
+path=3308100874/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=3308100874/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=2690240655/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=2690240655/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=1983839431/api=apps/v1/default/Deployment/kubeshark-hub,High,Writable hostPath mount,0,1,1.0
+path=1983839431/api=apps/v1/default/Deployment/kubeshark-hub,High,Insecure capabilities,0,1,1.0
+path=1042013963/api=apps/v1//Deployment/tcp-echo,High,Writable hostPath mount,0,1,1.0
+path=1042013963/api=apps/v1//Deployment/tcp-echo,High,Insecure capabilities,0,1,1.0
+path=1737241944/api=apps/v1/monitoring/Deployment/grafana,High,Writable hostPath mount,0,1,1.0
+path=1737241944/api=apps/v1/monitoring/Deployment/grafana,High,Insecure capabilities,0,1,1.0
+path=3563192003/api=apps/v1//Deployment/details-v1,High,Writable hostPath mount,0,1,1.0
+path=3563192003/api=apps/v1//Deployment/details-v1,High,Insecure capabilities,0,1,1.0
+path=3382082383/api=/v1//Pod/ray-pod,High,Writable hostPath mount,0,1,1.0
+path=3382082383/api=/v1//Pod/ray-pod,High,Insecure capabilities,0,1,1.0
+path=1912436403/api=apps/v1/system/Deployment/controller-manager-v5,High,Writable hostPath mount,0,1,1.0
+path=1912436403/api=apps/v1/system/Deployment/controller-manager-v5,High,Insecure capabilities,0,1,1.0
+path=2036597503/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2036597503/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2442003545/api=apps/v1/litmus/Deployment/chaos-exporter,High,Writable hostPath mount,0,1,1.0
+path=2442003545/api=apps/v1/litmus/Deployment/chaos-exporter,High,Insecure capabilities,0,1,1.0
+path=1203558909/api=apps/v1//Deployment/db,High,Writable hostPath mount,0,1,1.0
+path=1203558909/api=apps/v1//Deployment/db,High,Insecure capabilities,0,1,1.0
+path=3956158815/api=apps/v1/argocd/Deployment/argocd-redis-ha-haproxy,High,Writable hostPath mount,0,1,1.0
+path=3956158815/api=apps/v1/argocd/Deployment/argocd-redis-ha-haproxy,High,Insecure capabilities,0,1,1.0
+path=732073767/api=apps/v1//Deployment/argocd-dex-server,High,Writable hostPath mount,0,1,1.0
+path=732073767/api=apps/v1//Deployment/argocd-dex-server,High,Insecure capabilities,0,1,1.0
+path=1858467274/api=apps/v1//Deployment/reviews-v3,High,Writable hostPath mount,0,1,1.0
+path=1858467274/api=apps/v1//Deployment/reviews-v3,High,Insecure capabilities,0,1,1.0
+path=2357359927/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=2357359927/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=2538277891/api=apps/v1//Deployment/ratings-v1,High,Writable hostPath mount,0,1,1.0
+path=2538277891/api=apps/v1//Deployment/ratings-v1,High,Insecure capabilities,0,1,1.0
+path=3248929363/api=apps/v1/kube-system/Deployment/metrics-server,High,Writable hostPath mount,0,1,1.0
+path=3248929363/api=apps/v1/kube-system/Deployment/metrics-server,High,Insecure capabilities,0,1,1.0
+path=64686758/api=apps/v1/kube-system/Deployment/debug-driver,High,Writable hostPath mount,1,1,0.0
+path=64686758/api=apps/v1/kube-system/Deployment/debug-driver,High,Insecure capabilities,0,1,1.0
+path=1060444381/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=1060444381/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=471105853/api=apps/v1//Deployment/helloworld-v1,High,Writable hostPath mount,0,1,1.0
+path=471105853/api=apps/v1//Deployment/helloworld-v1,High,Insecure capabilities,0,1,1.0
+path=3434598328/api=batch/v1//Job/,High,Writable hostPath mount,0,1,1.0
+path=3434598328/api=batch/v1//Job/,High,Insecure capabilities,0,1,1.0
+path=471677193/api=apps/v1/sock-shop/Deployment/orders,High,Writable hostPath mount,0,1,1.0
+path=471677193/api=apps/v1/sock-shop/Deployment/orders,High,Insecure capabilities,0,1,1.0
+path=2135855225/api=apps/v1//Deployment/argo-rollouts-dashboard,High,Writable hostPath mount,0,1,1.0
+path=2135855225/api=apps/v1//Deployment/argo-rollouts-dashboard,High,Insecure capabilities,0,1,1.0
+path=95755722/api=apps/v1//Deployment/argocd-dex-server,High,Writable hostPath mount,0,1,1.0
+path=95755722/api=apps/v1//Deployment/argocd-dex-server,High,Insecure capabilities,0,1,1.0
+path=2651863589/api=apps/v1//Deployment/details-v1,High,Writable hostPath mount,0,1,1.0
+path=2651863589/api=apps/v1//Deployment/details-v1,High,Insecure capabilities,0,1,1.0
+path=4082648555/api=apps/v1//Deployment/ratings-v2-mysql-vm,High,Writable hostPath mount,0,1,1.0
+path=4082648555/api=apps/v1//Deployment/ratings-v2-mysql-vm,High,Insecure capabilities,0,1,1.0
+path=3525203366/api=apps/v1//Deployment/argocd-redis,High,Writable hostPath mount,0,1,1.0
+path=3525203366/api=apps/v1//Deployment/argocd-redis,High,Insecure capabilities,0,1,1.0
+path=384162807/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=384162807/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1548119433/api=apps/v1/monitoring/DaemonSet/node-exporter,High,Writable hostPath mount,1,1,0.0
+path=1548119433/api=apps/v1/monitoring/DaemonSet/node-exporter,High,Insecure capabilities,0,1,1.0
+path=466118493/api=apps/v1/mongodb/Deployment/mongodb-enterprise-operator-multi-cluster,High,Writable hostPath mount,0,1,1.0
+path=466118493/api=apps/v1/mongodb/Deployment/mongodb-enterprise-operator-multi-cluster,High,Insecure capabilities,0,1,1.0
+path=1105456539/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1105456539/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2695841342/api=apps/v1//Deployment/helloworld-v2,High,Writable hostPath mount,0,1,1.0
+path=2695841342/api=apps/v1//Deployment/helloworld-v2,High,Insecure capabilities,0,1,1.0
+path=2390541248/api=apps/v1/kubeeye-system/Deployment/kubeeye-controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2390541248/api=apps/v1/kubeeye-system/Deployment/kubeeye-controller-manager,High,Insecure capabilities,0,1,1.0
+path=2064232107/api=apps/v1//Deployment/event-tracker,High,Writable hostPath mount,0,1,1.0
+path=2064232107/api=apps/v1//Deployment/event-tracker,High,Insecure capabilities,0,1,1.0
+path=2179591592/api=apps/v1//Deployment/tornado,High,Writable hostPath mount,0,1,1.0
+path=2179591592/api=apps/v1//Deployment/tornado,High,Insecure capabilities,0,1,1.0
+path=2720317831/api=apps/v1//Deployment/reviews-v2,High,Writable hostPath mount,0,1,1.0
+path=2720317831/api=apps/v1//Deployment/reviews-v2,High,Insecure capabilities,0,1,1.0
+path=3643209822/api=apps/v1/sock-shop/Deployment/payment,High,Writable hostPath mount,0,1,1.0
+path=3643209822/api=apps/v1/sock-shop/Deployment/payment,High,Insecure capabilities,0,1,1.0
+path=3540149141/api=apps/v1/echo-grpc/Deployment/echo-v1,High,Writable hostPath mount,0,1,1.0
+path=3540149141/api=apps/v1/echo-grpc/Deployment/echo-v1,High,Insecure capabilities,0,1,1.0
+path=2534420256/api=apps/v1//Deployment/ratings-v1,High,Writable hostPath mount,0,1,1.0
+path=2534420256/api=apps/v1//Deployment/ratings-v1,High,Insecure capabilities,0,1,1.0
+path=483415584/api=apps/v1/system/Deployment/kuberay-operator,High,Writable hostPath mount,0,1,1.0
+path=483415584/api=apps/v1/system/Deployment/kuberay-operator,High,Insecure capabilities,0,1,1.0
+path=3034096447/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3034096447/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1560064703/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1560064703/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1554906090/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1554906090/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2804119554/api=apps/v1/sock-shop/Deployment/queue-master,High,Writable hostPath mount,0,1,1.0
+path=2804119554/api=apps/v1/sock-shop/Deployment/queue-master,High,Insecure capabilities,0,1,1.0
+path=356941672/api=apps/v1/spire/Deployment/spire-server,High,Writable hostPath mount,0,1,1.0
+path=356941672/api=apps/v1/spire/Deployment/spire-server,High,Insecure capabilities,0,1,1.0
+path=1639090594/api=apps/v1//Deployment/jaeger-operator,High,Writable hostPath mount,0,1,1.0
+path=1639090594/api=apps/v1//Deployment/jaeger-operator,High,Insecure capabilities,0,1,1.0
+path=2530409045/api=apps/v1//Deployment/litmusportal-server,High,Writable hostPath mount,0,1,1.0
+path=2530409045/api=apps/v1//Deployment/litmusportal-server,High,Insecure capabilities,0,1,1.0
+path=3692979556/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=3692979556/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=4083476316/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4083476316/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3502850311/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3502850311/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2182791567/api=apps/v1/metallb-system/Deployment/controller,High,Writable hostPath mount,0,1,1.0
+path=2182791567/api=apps/v1/metallb-system/Deployment/controller,High,Insecure capabilities,0,1,1.0
+path=3669454173/api=apps/v1//Deployment/podinfo,High,Writable hostPath mount,0,1,1.0
+path=3669454173/api=apps/v1//Deployment/podinfo,High,Insecure capabilities,0,1,1.0
+path=1430983905/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1430983905/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1328516312/api=batch/v1/kong/Job/kong-migrations,High,Writable hostPath mount,0,1,1.0
+path=1328516312/api=batch/v1/kong/Job/kong-migrations,High,Insecure capabilities,0,1,1.0
+path=1141588598/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1141588598/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3185723430/api=/v1/default/Pod/ray-client-tls,High,Writable hostPath mount,0,1,1.0
+path=3185723430/api=/v1/default/Pod/ray-client-tls,High,Insecure capabilities,0,1,1.0
+path=1542968211/api=apps/v1/kong/Deployment/proxy-kong,High,Writable hostPath mount,0,1,1.0
+path=1542968211/api=apps/v1/kong/Deployment/proxy-kong,High,Insecure capabilities,0,1,1.0
+path=3578992312/api=apps/v1/monitoring-system/Deployment/vm-operator,High,Writable hostPath mount,0,1,1.0
+path=3578992312/api=apps/v1/monitoring-system/Deployment/vm-operator,High,Insecure capabilities,0,1,1.0
+path=2418463414/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2418463414/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=939498921/api=apps/v1/kube-system/DaemonSet/calico-node,High,Writable hostPath mount,1,1,0.0
+path=939498921/api=apps/v1/kube-system/DaemonSet/calico-node,High,Insecure capabilities,0,1,1.0
+path=4180005717/api=apps/v1/litmus/Deployment/chaos-exporter,High,Writable hostPath mount,0,1,1.0
+path=4180005717/api=apps/v1/litmus/Deployment/chaos-exporter,High,Insecure capabilities,0,1,1.0
+path=2936242914/api=apps/v1//Deployment/event-tracker,High,Writable hostPath mount,0,1,1.0
+path=2936242914/api=apps/v1//Deployment/event-tracker,High,Insecure capabilities,0,1,1.0
+path=3046699264/api=apps/v1/default/Deployment/longhorn-test-cifs,High,Writable hostPath mount,0,1,1.0
+path=3046699264/api=apps/v1/default/Deployment/longhorn-test-cifs,High,Insecure capabilities,1,1,0.0
+path=195255574/api=apps/v1/sock-shop/Deployment/user-load,High,Writable hostPath mount,0,1,1.0
+path=195255574/api=apps/v1/sock-shop/Deployment/user-load,High,Insecure capabilities,0,1,1.0
+path=4193315459/api=apps/v1/monitoring/Deployment/prometheus-adapter,High,Writable hostPath mount,0,1,1.0
+path=4193315459/api=apps/v1/monitoring/Deployment/prometheus-adapter,High,Insecure capabilities,0,1,1.0
+path=2648664434/api=apps/v1/monitoring/Deployment/kube-state-metrics,High,Writable hostPath mount,0,1,1.0
+path=2648664434/api=apps/v1/monitoring/Deployment/kube-state-metrics,High,Insecure capabilities,0,1,1.0
+path=2740851957/api=apps/v1/kubeeye-system/Deployment/kubehunter,High,Writable hostPath mount,0,1,1.0
+path=2740851957/api=apps/v1/kubeeye-system/Deployment/kubehunter,High,Insecure capabilities,0,1,1.0
+path=4160733702/api=apps/v1//StatefulSet/nacos,High,Writable hostPath mount,0,1,1.0
+path=4160733702/api=apps/v1//StatefulSet/nacos,High,Insecure capabilities,0,1,1.0
+path=460799482/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=460799482/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=392528998/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Writable hostPath mount,1,1,0.0
+path=392528998/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Insecure capabilities,1,1,0.0
+path=4109539435/api=apps/v1/litmus/Deployment/litmusportal-dex-server,High,Writable hostPath mount,0,1,1.0
+path=4109539435/api=apps/v1/litmus/Deployment/litmusportal-dex-server,High,Insecure capabilities,0,1,1.0
+path=4091300056/api=apps/v1/longhorn-system/Deployment/longhorn-ui,High,Writable hostPath mount,0,1,1.0
+path=4091300056/api=apps/v1/longhorn-system/Deployment/longhorn-ui,High,Insecure capabilities,0,1,1.0
+path=3008240948/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3008240948/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3832730549/api=apps/v1//DaemonSet/longhorn-iscsi-installation,High,Writable hostPath mount,0,1,1.0
+path=3832730549/api=apps/v1//DaemonSet/longhorn-iscsi-installation,High,Insecure capabilities,0,1,1.0
+path=1854043660/api=apps/v1/monitoring/DaemonSet/node-exporter,High,Writable hostPath mount,1,1,0.0
+path=1854043660/api=apps/v1/monitoring/DaemonSet/node-exporter,High,Insecure capabilities,0,1,1.0
+path=221752153/api=apps/v1/kube-system/DaemonSet/csi-secrets-store,High,Writable hostPath mount,1,1,0.0
+path=221752153/api=apps/v1/kube-system/DaemonSet/csi-secrets-store,High,Insecure capabilities,0,1,1.0
+path=2936079902/api=apps/v1//Deployment/pgo,High,Writable hostPath mount,0,1,1.0
+path=2936079902/api=apps/v1//Deployment/pgo,High,Insecure capabilities,0,1,1.0
+path=1012505005/api=apps/v1/monitoring/Deployment/pyrra-kubernetes,High,Writable hostPath mount,0,1,1.0
+path=1012505005/api=apps/v1/monitoring/Deployment/pyrra-kubernetes,High,Insecure capabilities,0,1,1.0
+path=2496016146/api=apps/v1/sock-shop/Deployment/carts-db,High,Writable hostPath mount,0,1,1.0
+path=2496016146/api=apps/v1/sock-shop/Deployment/carts-db,High,Insecure capabilities,0,1,1.0
+path=3811780953/api=apps/v1/default/StatefulSet/nacos,High,Writable hostPath mount,0,1,1.0
+path=3811780953/api=apps/v1/default/StatefulSet/nacos,High,Insecure capabilities,0,1,1.0
+path=1944015087/api=apps/v1/longhorn-system/DaemonSet/longhorn-manager,High,Writable hostPath mount,1,1,0.0
+path=1944015087/api=apps/v1/longhorn-system/DaemonSet/longhorn-manager,High,Insecure capabilities,0,1,1.0
+path=2529254551/api=apps/v1/system/Deployment/kuberay-operator,High,Writable hostPath mount,0,1,1.0
+path=2529254551/api=apps/v1/system/Deployment/kuberay-operator,High,Insecure capabilities,0,1,1.0
+path=889509525/api=apps/v1/monitoring/Deployment/pyrra-kubernetes,High,Writable hostPath mount,0,1,1.0
+path=889509525/api=apps/v1/monitoring/Deployment/pyrra-kubernetes,High,Insecure capabilities,0,1,1.0
+path=2702657740/api=apps/v1/kanister/Deployment/kanister-operator,High,Writable hostPath mount,0,1,1.0
+path=2702657740/api=apps/v1/kanister/Deployment/kanister-operator,High,Insecure capabilities,0,1,1.0
+path=2472375410/api=apps/v1/sock-shop/Deployment/orders-db,High,Writable hostPath mount,0,1,1.0
+path=2472375410/api=apps/v1/sock-shop/Deployment/orders-db,High,Insecure capabilities,0,1,1.0
+path=634163964/api=batch/v1/longhorn-system/Job/longhorn-uninstall,High,Writable hostPath mount,0,1,1.0
+path=634163964/api=batch/v1/longhorn-system/Job/longhorn-uninstall,High,Insecure capabilities,0,1,1.0
+path=3916196672/api=apps/v1/sock-shop/Deployment/rabbitmq,High,Writable hostPath mount,0,1,1.0
+path=3916196672/api=apps/v1/sock-shop/Deployment/rabbitmq,High,Insecure capabilities,0,1,1.0
+path=1301123643/api=apps/v1/istio-system/Deployment/skywalking-oap,High,Writable hostPath mount,0,1,1.0
+path=1301123643/api=apps/v1/istio-system/Deployment/skywalking-oap,High,Insecure capabilities,0,1,1.0
+path=3375223410/api=apps/v1/istio-system/Deployment/zipkin,High,Writable hostPath mount,0,1,1.0
+path=3375223410/api=apps/v1/istio-system/Deployment/zipkin,High,Insecure capabilities,0,1,1.0
+path=1060993003/api=apps/v1//Deployment/details-v1,High,Writable hostPath mount,0,1,1.0
+path=1060993003/api=apps/v1//Deployment/details-v1,High,Insecure capabilities,0,1,1.0
+path=3997309033/api=apps/v1//Deployment/productpage-v1,High,Writable hostPath mount,0,1,1.0
+path=3997309033/api=apps/v1//Deployment/productpage-v1,High,Insecure capabilities,0,1,1.0
+path=3412339345/api=apps/v1/monitoring/Deployment/kube-state-metrics,High,Writable hostPath mount,0,1,1.0
+path=3412339345/api=apps/v1/monitoring/Deployment/kube-state-metrics,High,Insecure capabilities,0,1,1.0
+path=4066549551/api=apps/v1/kubeeye-system/Deployment/kubescape,High,Writable hostPath mount,0,1,1.0
+path=4066549551/api=apps/v1/kubeeye-system/Deployment/kubescape,High,Insecure capabilities,0,1,1.0
+path=808780096/api=apps/v1//Deployment/argocd-redis,High,Writable hostPath mount,0,1,1.0
+path=808780096/api=apps/v1//Deployment/argocd-redis,High,Insecure capabilities,0,1,1.0
+path=62200484/api=apps/v1//Deployment/argocd-redis-ha-haproxy,High,Writable hostPath mount,0,1,1.0
+path=62200484/api=apps/v1//Deployment/argocd-redis-ha-haproxy,High,Insecure capabilities,0,1,1.0
+path=960327289/api=apps/v1//Deployment/reviews-v1,High,Writable hostPath mount,0,1,1.0
+path=960327289/api=apps/v1//Deployment/reviews-v1,High,Insecure capabilities,0,1,1.0
+path=4287520481/api=apps/v1/default/Deployment/grafana-operator-controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4287520481/api=apps/v1/default/Deployment/grafana-operator-controller-manager,High,Insecure capabilities,0,1,1.0
+path=3185740400/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3185740400/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1584548117/api=apps/v1//StatefulSet/nacos,High,Writable hostPath mount,0,1,1.0
+path=1584548117/api=apps/v1//StatefulSet/nacos,High,Insecure capabilities,0,1,1.0
+path=1827151151/api=apps/v1/default/Deployment/influxdb,High,Writable hostPath mount,0,1,1.0
+path=1827151151/api=apps/v1/default/Deployment/influxdb,High,Insecure capabilities,0,1,1.0
+path=1633406505/api=apps/v1//Deployment/redis,High,Writable hostPath mount,0,1,1.0
+path=1633406505/api=apps/v1//Deployment/redis,High,Insecure capabilities,0,1,1.0
+path=4079884596/api=apps/v1//Deployment/productpage-v1,High,Writable hostPath mount,0,1,1.0
+path=4079884596/api=apps/v1//Deployment/productpage-v1,High,Insecure capabilities,0,1,1.0
+path=1145259209/api=apps/v1//Deployment/frontend,High,Writable hostPath mount,0,1,1.0
+path=1145259209/api=apps/v1//Deployment/frontend,High,Insecure capabilities,0,1,1.0
+path=2122326166/api=apps/v1//Deployment/argocd-redis-ha-haproxy,High,Writable hostPath mount,0,1,1.0
+path=2122326166/api=apps/v1//Deployment/argocd-redis-ha-haproxy,High,Insecure capabilities,0,1,1.0
+path=3915296666/api=apps/v1/monitoring-system/Deployment/vm-operator,High,Writable hostPath mount,0,1,1.0
+path=3915296666/api=apps/v1/monitoring-system/Deployment/vm-operator,High,Insecure capabilities,0,1,1.0
+path=4006021733/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4006021733/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1735772699/api=apps/v1//StatefulSet/zookeeper,High,Writable hostPath mount,0,1,1.0
+path=1735772699/api=apps/v1//StatefulSet/zookeeper,High,Insecure capabilities,0,1,1.0
+path=2047454488/api=apps/v1//Deployment/subscriber,High,Writable hostPath mount,0,1,1.0
+path=2047454488/api=apps/v1//Deployment/subscriber,High,Insecure capabilities,0,1,1.0
+path=2963741550/api=apps/v1/default/Deployment/reloader-reloader,High,Writable hostPath mount,0,1,1.0
+path=2963741550/api=apps/v1/default/Deployment/reloader-reloader,High,Insecure capabilities,0,1,1.0
+path=3559147398/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3559147398/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3379111300/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=3379111300/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=1841689655/api=apps/v1//Deployment/productpage-v1,High,Writable hostPath mount,0,1,1.0
+path=1841689655/api=apps/v1//Deployment/productpage-v1,High,Insecure capabilities,0,1,1.0
+path=842335334/api=apps/v1//Deployment/argocd-dex-server,High,Writable hostPath mount,0,1,1.0
+path=842335334/api=apps/v1//Deployment/argocd-dex-server,High,Insecure capabilities,0,1,1.0
+path=549735499/api=apps/v1/monitoring/Deployment/pyrra-api,High,Writable hostPath mount,0,1,1.0
+path=549735499/api=apps/v1/monitoring/Deployment/pyrra-api,High,Insecure capabilities,0,1,1.0
+path=2418246897/api=apps/v1/kadalu/Deployment/operator,High,Writable hostPath mount,0,1,1.0
+path=2418246897/api=apps/v1/kadalu/Deployment/operator,High,Insecure capabilities,0,1,1.0
+path=20034001/api=apps/v1//Deployment/worker,High,Writable hostPath mount,0,1,1.0
+path=20034001/api=apps/v1//Deployment/worker,High,Insecure capabilities,0,1,1.0
+path=3331913934/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3331913934/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3327052314/api=apps/v1/litmus/Deployment/litmusportal-server,High,Writable hostPath mount,0,1,1.0
+path=3327052314/api=apps/v1/litmus/Deployment/litmusportal-server,High,Insecure capabilities,0,1,1.0
+path=530805681/api=apps/v1/default/Deployment/longhorn-test-minio,High,Writable hostPath mount,0,1,1.0
+path=530805681/api=apps/v1/default/Deployment/longhorn-test-minio,High,Insecure capabilities,0,1,1.0
+path=2791213499/api=apps/v1//Deployment/tcp-echo,High,Writable hostPath mount,0,1,1.0
+path=2791213499/api=apps/v1//Deployment/tcp-echo,High,Insecure capabilities,0,1,1.0
+path=178104151/api=apps/v1/istio-system/Deployment/kiali,High,Writable hostPath mount,0,1,1.0
+path=178104151/api=apps/v1/istio-system/Deployment/kiali,High,Insecure capabilities,0,1,1.0
+path=30009501/api=apps/v1/monitoring/Deployment/grafana,High,Writable hostPath mount,0,1,1.0
+path=30009501/api=apps/v1/monitoring/Deployment/grafana,High,Insecure capabilities,0,1,1.0
+path=4251239482/api=apps/v1//Deployment/prometheus-operator,High,Writable hostPath mount,0,1,1.0
+path=4251239482/api=apps/v1//Deployment/prometheus-operator,High,Insecure capabilities,0,1,1.0
+path=3356113763/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3356113763/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3489816284/api=apps/v1/echo-grpc/Deployment/echo-v2,High,Writable hostPath mount,0,1,1.0
+path=3489816284/api=apps/v1/echo-grpc/Deployment/echo-v2,High,Insecure capabilities,0,1,1.0
+path=2389045947/api=apps/v1//Deployment/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=2389045947/api=apps/v1//Deployment/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=725506614/api=apps/v1//Deployment/argo-rollouts,High,Writable hostPath mount,0,1,1.0
+path=725506614/api=apps/v1//Deployment/argo-rollouts,High,Insecure capabilities,0,1,1.0
+path=3860223018/api=apps/v1//Deployment/reviews-v1,High,Writable hostPath mount,0,1,1.0
+path=3860223018/api=apps/v1//Deployment/reviews-v1,High,Insecure capabilities,0,1,1.0
+path=2306879975/api=apps/v1//Deployment/argocd-notifications-controller,High,Writable hostPath mount,0,1,1.0
+path=2306879975/api=apps/v1//Deployment/argocd-notifications-controller,High,Insecure capabilities,0,1,1.0
+path=2392354657/api=apps/v1/default/Deployment/reloader-reloader,High,Writable hostPath mount,0,1,1.0
+path=2392354657/api=apps/v1/default/Deployment/reloader-reloader,High,Insecure capabilities,0,1,1.0
+path=2498335243/api=apps/v1//Deployment/chaos-operator-ce,High,Writable hostPath mount,0,1,1.0
+path=2498335243/api=apps/v1//Deployment/chaos-operator-ce,High,Insecure capabilities,0,1,1.0
+path=55607075/api=apps/v1//Deployment/argocd-applicationset-controller,High,Writable hostPath mount,0,1,1.0
+path=55607075/api=apps/v1//Deployment/argocd-applicationset-controller,High,Insecure capabilities,0,1,1.0
+path=2535280425/api=apps/v1/kong/Deployment/proxy-kong,High,Writable hostPath mount,0,1,1.0
+path=2535280425/api=apps/v1/kong/Deployment/proxy-kong,High,Insecure capabilities,0,1,1.0
+path=3853631712/api=apps/v1//Deployment/argo-rollouts,High,Writable hostPath mount,0,1,1.0
+path=3853631712/api=apps/v1//Deployment/argo-rollouts,High,Insecure capabilities,0,1,1.0
+path=1162664898/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1162664898/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3227583464/api=apps/v1/secure/Deployment/backend,High,Writable hostPath mount,0,1,1.0
+path=3227583464/api=apps/v1/secure/Deployment/backend,High,Insecure capabilities,0,1,1.0
+path=2253253904/api=apps/v1/spire/DaemonSet/spire-agent,High,Writable hostPath mount,1,1,0.0
+path=2253253904/api=apps/v1/spire/DaemonSet/spire-agent,High,Insecure capabilities,0,1,1.0
+path=3877000637/api=apps/v1//Deployment/reviews-v2,High,Writable hostPath mount,0,1,1.0
+path=3877000637/api=apps/v1//Deployment/reviews-v2,High,Insecure capabilities,0,1,1.0
+path=2340582308/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=2340582308/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=3466152244/api=apps/v1//Deployment/kuberay-apiserver,High,Writable hostPath mount,0,1,1.0
+path=3466152244/api=apps/v1//Deployment/kuberay-apiserver,High,Insecure capabilities,0,1,1.0
+path=1992257738/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1992257738/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2448085770/api=apps/v1//Deployment/argo-rollouts,High,Writable hostPath mount,0,1,1.0
+path=2448085770/api=apps/v1//Deployment/argo-rollouts,High,Insecure capabilities,0,1,1.0
+path=1462847091/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1462847091/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3826376894/api=batch/v1/litmus/Job/upgrade-agent,High,Writable hostPath mount,0,1,1.0
+path=3826376894/api=batch/v1/litmus/Job/upgrade-agent,High,Insecure capabilities,0,1,1.0
+path=90236043/api=apps/v1//Deployment/tcp-echo-v2,High,Writable hostPath mount,0,1,1.0
+path=90236043/api=apps/v1//Deployment/tcp-echo-v2,High,Insecure capabilities,0,1,1.0
+path=3362174624/api=apps/v1//Deployment/argo-rollouts,High,Writable hostPath mount,0,1,1.0
+path=3362174624/api=apps/v1//Deployment/argo-rollouts,High,Insecure capabilities,0,1,1.0
+path=2795919015/api=apps/v1//DaemonSet/longhorn-cifs-installation,High,Writable hostPath mount,0,1,1.0
+path=2795919015/api=apps/v1//DaemonSet/longhorn-cifs-installation,High,Insecure capabilities,0,1,1.0
+path=2735751684/api=apps/v1//Deployment/reviews-v2,High,Writable hostPath mount,0,1,1.0
+path=2735751684/api=apps/v1//Deployment/reviews-v2,High,Insecure capabilities,0,1,1.0
+path=2618529701/api=apps/v1/litmus/Deployment/litmusportal-server,High,Writable hostPath mount,0,1,1.0
+path=2618529701/api=apps/v1/litmus/Deployment/litmusportal-server,High,Insecure capabilities,0,1,1.0
+path=2599913225/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Writable hostPath mount,0,1,1.0
+path=2599913225/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Insecure capabilities,0,1,1.0
+path=4133339239/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4133339239/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2648082030/api=apps/v1/webapp/Deployment/frontend,High,Writable hostPath mount,0,1,1.0
+path=2648082030/api=apps/v1/webapp/Deployment/frontend,High,Insecure capabilities,0,1,1.0
+path=2980754345/api=apps/v1//Deployment/tcp-echo,High,Writable hostPath mount,0,1,1.0
+path=2980754345/api=apps/v1//Deployment/tcp-echo,High,Insecure capabilities,0,1,1.0
+path=4103177866/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=4103177866/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=4213436035/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4213436035/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2819237185/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2819237185/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1424790359/api=batch/v1/kong/Job/kong-migrations,High,Writable hostPath mount,0,1,1.0
+path=1424790359/api=batch/v1/kong/Job/kong-migrations,High,Insecure capabilities,0,1,1.0
+path=848562106/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=848562106/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=664274789/api=apps/v1/version-checker/Deployment/version-checker,High,Writable hostPath mount,0,1,1.0
+path=664274789/api=apps/v1/version-checker/Deployment/version-checker,High,Insecure capabilities,0,1,1.0
+path=751875610/api=apps/v1/kubeeye-system/Deployment/kubescape,High,Writable hostPath mount,0,1,1.0
+path=751875610/api=apps/v1/kubeeye-system/Deployment/kubescape,High,Insecure capabilities,0,1,1.0
+path=1018366453/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=1018366453/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=330553901/api=apps/v1/kube-system/DaemonSet/csi-secrets-store-windows,High,Writable hostPath mount,1,1,0.0
+path=330553901/api=apps/v1/kube-system/DaemonSet/csi-secrets-store-windows,High,Insecure capabilities,0,1,1.0
+path=1094962435/api=apps/v1/sock-shop/Deployment/user,High,Writable hostPath mount,0,1,1.0
+path=1094962435/api=apps/v1/sock-shop/Deployment/user,High,Insecure capabilities,0,1,1.0
+path=943549670/api=apps/v1//Deployment/reviews-v2,High,Writable hostPath mount,0,1,1.0
+path=943549670/api=apps/v1//Deployment/reviews-v2,High,Insecure capabilities,0,1,1.0
+path=3439214681/api=apps/v1/kong/Deployment/proxy-kong,High,Writable hostPath mount,0,1,1.0
+path=3439214681/api=apps/v1/kong/Deployment/proxy-kong,High,Insecure capabilities,0,1,1.0
+path=3556946552/api=apps/v1/kong/StatefulSet/postgres,High,Writable hostPath mount,0,1,1.0
+path=3556946552/api=apps/v1/kong/StatefulSet/postgres,High,Insecure capabilities,0,1,1.0
+path=3494445613/api=apps/v1/kubeeye-system/Deployment/kubebench,High,Writable hostPath mount,0,1,1.0
+path=3494445613/api=apps/v1/kubeeye-system/Deployment/kubebench,High,Insecure capabilities,0,1,1.0
+path=1404022011/api=apps/v1//Deployment/mysqldb-v1,High,Writable hostPath mount,0,1,1.0
+path=1404022011/api=apps/v1//Deployment/mysqldb-v1,High,Insecure capabilities,0,1,1.0
+path=947597011/api=apps/v1//Deployment/sleep,High,Writable hostPath mount,0,1,1.0
+path=947597011/api=apps/v1//Deployment/sleep,High,Insecure capabilities,0,1,1.0
+path=1524291643/api=apps/v1//Deployment/argocd-redis,High,Writable hostPath mount,0,1,1.0
+path=1524291643/api=apps/v1//Deployment/argocd-redis,High,Insecure capabilities,0,1,1.0
+path=113372743/api=apps/v1//Deployment/ratings-v1,High,Writable hostPath mount,0,1,1.0
+path=113372743/api=apps/v1//Deployment/ratings-v1,High,Insecure capabilities,0,1,1.0
+path=1967061812/api=apps/v1/default/DaemonSet/kubeshark-worker-daemon-set,High,Writable hostPath mount,0,1,1.0
+path=1967061812/api=apps/v1/default/DaemonSet/kubeshark-worker-daemon-set,High,Insecure capabilities,1,1,0.0
+path=4098554772/api=apps/v1/sock-shop/Deployment/user-db,High,Writable hostPath mount,0,1,1.0
+path=4098554772/api=apps/v1/sock-shop/Deployment/user-db,High,Insecure capabilities,0,1,1.0
+path=794089906/api=apps/v1//StatefulSet/loki,High,Writable hostPath mount,0,1,1.0
+path=794089906/api=apps/v1//StatefulSet/loki,High,Insecure capabilities,0,1,1.0
+path=1870857422/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=1870857422/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=1234662578/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1234662578/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2877750091/api=apps/v1/openshift-monitoring/Deployment/pyrra-api,High,Writable hostPath mount,0,1,1.0
+path=2877750091/api=apps/v1/openshift-monitoring/Deployment/pyrra-api,High,Insecure capabilities,0,1,1.0
+path=1387786944/api=apps/v1/mongodb/Deployment/mongodb-enterprise-operator,High,Writable hostPath mount,0,1,1.0
+path=1387786944/api=apps/v1/mongodb/Deployment/mongodb-enterprise-operator,High,Insecure capabilities,0,1,1.0
+path=3693390492/api=apps/v1/istio-system/Deployment/prometheus,High,Writable hostPath mount,0,1,1.0
+path=3693390492/api=apps/v1/istio-system/Deployment/prometheus,High,Insecure capabilities,0,1,1.0
+path=467332045/api=apps/v1//DaemonSet/longhorn-nfs-installation,High,Writable hostPath mount,0,1,1.0
+path=467332045/api=apps/v1//DaemonSet/longhorn-nfs-installation,High,Insecure capabilities,0,1,1.0
+path=1397164749/api=apps/v1//Deployment/backend,High,Writable hostPath mount,0,1,1.0
+path=1397164749/api=apps/v1//Deployment/backend,High,Insecure capabilities,0,1,1.0
+path=1224895489/api=apps/v1//Deployment/nginx,High,Writable hostPath mount,0,1,1.0
+path=1224895489/api=apps/v1//Deployment/nginx,High,Insecure capabilities,0,1,1.0
+path=2111890600/api=apps/v1//Deployment/httpbin,High,Writable hostPath mount,0,1,1.0
+path=2111890600/api=apps/v1//Deployment/httpbin,High,Insecure capabilities,0,1,1.0
+path=400480531/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Writable hostPath mount,0,1,1.0
+path=400480531/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Insecure capabilities,0,1,1.0
+path=3285429205/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3285429205/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2451397464/api=apps/v1/sock-shop/Deployment/catalogue-db,High,Writable hostPath mount,0,1,1.0
+path=2451397464/api=apps/v1/sock-shop/Deployment/catalogue-db,High,Insecure capabilities,0,1,1.0
+path=1157755063/api=apps/v1/kube-system/Deployment/calico-kube-controllers,High,Writable hostPath mount,0,1,1.0
+path=1157755063/api=apps/v1/kube-system/Deployment/calico-kube-controllers,High,Insecure capabilities,0,1,1.0
+path=745108816/api=apps/v1//Deployment/jaeger-operator,High,Writable hostPath mount,0,1,1.0
+path=745108816/api=apps/v1//Deployment/jaeger-operator,High,Insecure capabilities,0,1,1.0
+path=2468999122/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2468999122/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3505465751/api=apps/v1/kubeeye-system/Deployment/kubehunter,High,Writable hostPath mount,0,1,1.0
+path=3505465751/api=apps/v1/kubeeye-system/Deployment/kubehunter,High,Insecure capabilities,0,1,1.0
+path=3257792601/api=apps/v1/sock-shop/Deployment/front-end,High,Writable hostPath mount,0,1,1.0
+path=3257792601/api=apps/v1/sock-shop/Deployment/front-end,High,Insecure capabilities,0,1,1.0
+path=2904389858/api=apps/v1//Deployment/opentelemetry-collector,High,Writable hostPath mount,0,1,1.0
+path=2904389858/api=apps/v1//Deployment/opentelemetry-collector,High,Insecure capabilities,0,1,1.0
+path=1784611261/api=apps/v1//Deployment/ratings-v2-mysql,High,Writable hostPath mount,0,1,1.0
+path=1784611261/api=apps/v1//Deployment/ratings-v2-mysql,High,Insecure capabilities,0,1,1.0
+path=2290102356/api=apps/v1//Deployment/argocd-dex-server,High,Writable hostPath mount,0,1,1.0
+path=2290102356/api=apps/v1//Deployment/argocd-dex-server,High,Insecure capabilities,0,1,1.0
+path=81464377/api=apps/v1/kube-system/DaemonSet/csi-secrets-store,High,Writable hostPath mount,1,1,0.0
+path=81464377/api=apps/v1/kube-system/DaemonSet/csi-secrets-store,High,Insecure capabilities,0,1,1.0
+path=700279586/api=apps/v1//Deployment/result,High,Writable hostPath mount,0,1,1.0
+path=700279586/api=apps/v1//Deployment/result,High,Insecure capabilities,0,1,1.0
+path=2562433144/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=2562433144/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=4206169209/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=4206169209/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=3520543613/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3520543613/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2406192658/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2406192658/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=770212289/api=apps/v1//Deployment/notsleep,High,Writable hostPath mount,0,1,1.0
+path=770212289/api=apps/v1//Deployment/notsleep,High,Insecure capabilities,0,1,1.0
+path=1032247287/api=apps/v1/kadalu/Deployment/operator,High,Writable hostPath mount,0,1,1.0
+path=1032247287/api=apps/v1/kadalu/Deployment/operator,High,Insecure capabilities,0,1,1.0
+path=959041714/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=959041714/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=2067166771/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=2067166771/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=366700460/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=366700460/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=2618382606/api=apps/v1/litmus/Deployment/litmusportal-frontend,High,Writable hostPath mount,0,1,1.0
+path=2618382606/api=apps/v1/litmus/Deployment/litmusportal-frontend,High,Insecure capabilities,0,1,1.0
+path=3642792889/api=apps/v1/kube-system/DaemonSet/csi-secrets-store-windows,High,Writable hostPath mount,1,1,0.0
+path=3642792889/api=apps/v1/kube-system/DaemonSet/csi-secrets-store-windows,High,Insecure capabilities,0,1,1.0
+path=3369454754/api=apps/v1/monitoring/Deployment/prometheus-operator,High,Writable hostPath mount,0,1,1.0
+path=3369454754/api=apps/v1/monitoring/Deployment/prometheus-operator,High,Insecure capabilities,0,1,1.0
+path=1244848086/api=apps/v1//Deployment/httpbin,High,Writable hostPath mount,0,1,1.0
+path=1244848086/api=apps/v1//Deployment/httpbin,High,Insecure capabilities,0,1,1.0
+path=1715058659/api=apps/v1/flux-system/Deployment/credentials-sync,High,Writable hostPath mount,0,1,1.0
+path=1715058659/api=apps/v1/flux-system/Deployment/credentials-sync,High,Insecure capabilities,0,1,1.0
+path=1317901262/api=apps/v1/istio-system/Deployment/skywalking-ui,High,Writable hostPath mount,0,1,1.0
+path=1317901262/api=apps/v1/istio-system/Deployment/skywalking-ui,High,Insecure capabilities,0,1,1.0
+path=1361888823/api=apps/v1//Deployment/details-v1,High,Writable hostPath mount,0,1,1.0
+path=1361888823/api=apps/v1//Deployment/details-v1,High,Insecure capabilities,0,1,1.0
+path=3875849984/api=apps/v1/default/Deployment/longhorn-test-azblob,High,Writable hostPath mount,0,1,1.0
+path=3875849984/api=apps/v1/default/Deployment/longhorn-test-azblob,High,Insecure capabilities,0,1,1.0
+path=305250299/api=apps/v1//Deployment/httpbin,High,Writable hostPath mount,0,1,1.0
+path=305250299/api=apps/v1//Deployment/httpbin,High,Insecure capabilities,0,1,1.0
+path=2310548525/api=apps/v1//StatefulSet/argocd-redis-ha-server,High,Writable hostPath mount,0,1,1.0
+path=2310548525/api=apps/v1//StatefulSet/argocd-redis-ha-server,High,Insecure capabilities,0,1,1.0
+path=3844514593/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=3844514593/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=3641043958/api=apps/v1/monitoring/Deployment/prometheus-deployment,High,Writable hostPath mount,0,1,1.0
+path=3641043958/api=apps/v1/monitoring/Deployment/prometheus-deployment,High,Insecure capabilities,0,1,1.0
+path=3508425747/api=apps/v1//Deployment/argocd-notifications-controller,High,Writable hostPath mount,0,1,1.0
+path=3508425747/api=apps/v1//Deployment/argocd-notifications-controller,High,Insecure capabilities,0,1,1.0
+path=1212711400/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1212711400/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=419927000/api=apps/v1//Deployment/sleep,High,Writable hostPath mount,0,1,1.0
+path=419927000/api=apps/v1//Deployment/sleep,High,Insecure capabilities,0,1,1.0
+path=3643330446/api=apps/v1//Deployment/details-v1,High,Writable hostPath mount,0,1,1.0
+path=3643330446/api=apps/v1//Deployment/details-v1,High,Insecure capabilities,0,1,1.0
+path=1636360852/api=apps/v1//Deployment/redis,High,Writable hostPath mount,0,1,1.0
+path=1636360852/api=apps/v1//Deployment/redis,High,Insecure capabilities,0,1,1.0
+path=2722831700/api=apps/v1//Deployment/reviews-v1,High,Writable hostPath mount,0,1,1.0
+path=2722831700/api=apps/v1//Deployment/reviews-v1,High,Insecure capabilities,0,1,1.0
+path=3810311736/api=apps/v1//Deployment/jwt-server,High,Writable hostPath mount,0,1,1.0
+path=3810311736/api=apps/v1//Deployment/jwt-server,High,Insecure capabilities,0,1,1.0
+path=3609091461/api=apps/v1//Deployment/argocd-applicationset-controller,High,Writable hostPath mount,0,1,1.0
+path=3609091461/api=apps/v1//Deployment/argocd-applicationset-controller,High,Insecure capabilities,0,1,1.0
+path=3824976172/api=apps/v1//Deployment/ext-authz,High,Writable hostPath mount,0,1,1.0
+path=3824976172/api=apps/v1//Deployment/ext-authz,High,Insecure capabilities,0,1,1.0
+path=2390915165/api=apps/v1//StatefulSet/argocd-redis-ha-server,High,Writable hostPath mount,0,1,1.0
+path=2390915165/api=apps/v1//StatefulSet/argocd-redis-ha-server,High,Insecure capabilities,0,1,1.0
+path=4095587011/api=apps/v1/monitoring/Deployment/pyrra-api,High,Writable hostPath mount,0,1,1.0
+path=4095587011/api=apps/v1/monitoring/Deployment/pyrra-api,High,Insecure capabilities,0,1,1.0
+path=3058524363/api=apps/v1/monitoring-system/Deployment/vm-operator,High,Writable hostPath mount,0,1,1.0
+path=3058524363/api=apps/v1/monitoring-system/Deployment/vm-operator,High,Insecure capabilities,0,1,1.0
+path=3293497076/api=apps/v1/litmus/Deployment/litmusportal-auth-server,High,Writable hostPath mount,0,1,1.0
+path=3293497076/api=apps/v1/litmus/Deployment/litmusportal-auth-server,High,Insecure capabilities,0,1,1.0
+path=536742005/api=apps/v1//Deployment/workflow-controller,High,Writable hostPath mount,0,1,1.0
+path=536742005/api=apps/v1//Deployment/workflow-controller,High,Insecure capabilities,0,1,1.0
+path=3210510921/api=apps/v1//Deployment/tcp-echo,High,Writable hostPath mount,0,1,1.0
+path=3210510921/api=apps/v1//Deployment/tcp-echo,High,Insecure capabilities,0,1,1.0
+path=926523514/api=apps/v1/shifu-service/Deployment/telemetryservice,High,Writable hostPath mount,0,1,1.0
+path=926523514/api=apps/v1/shifu-service/Deployment/telemetryservice,High,Insecure capabilities,0,1,1.0
+path=330597384/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=330597384/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3491648128/api=apps/v1//Deployment/argocd-dex-server,High,Writable hostPath mount,0,1,1.0
+path=3491648128/api=apps/v1//Deployment/argocd-dex-server,High,Insecure capabilities,0,1,1.0
+path=3198815399/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3198815399/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1062611480/api=apps/v1//Deployment/argocd-image-updater,High,Writable hostPath mount,0,1,1.0
+path=1062611480/api=apps/v1//Deployment/argocd-image-updater,High,Insecure capabilities,0,1,1.0
+path=16441812/api=apps/v1//Deployment/nginx-demo-app,High,Writable hostPath mount,0,1,1.0
+path=16441812/api=apps/v1//Deployment/nginx-demo-app,High,Insecure capabilities,0,1,1.0
+path=1593671783/api=apps/v1//Deployment/argocd-image-updater,High,Writable hostPath mount,0,1,1.0
+path=1593671783/api=apps/v1//Deployment/argocd-image-updater,High,Insecure capabilities,0,1,1.0
+path=3884931769/api=apps/v1//Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3884931769/api=apps/v1//Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1669916090/api=apps/v1//Deployment/ratelimit,High,Writable hostPath mount,0,1,1.0
+path=1669916090/api=apps/v1//Deployment/ratelimit,High,Insecure capabilities,0,1,1.0
+path=2166013948/api=apps/v1/metallb-system/DaemonSet/speaker,High,Writable hostPath mount,0,1,1.0
+path=2166013948/api=apps/v1/metallb-system/DaemonSet/speaker,High,Insecure capabilities,1,1,0.0
+path=3023703340/api=apps/v1/monitoring/Deployment/kube-state-metrics,High,Writable hostPath mount,0,1,1.0
+path=3023703340/api=apps/v1/monitoring/Deployment/kube-state-metrics,High,Insecure capabilities,0,1,1.0
+path=4062613166/api=apps/v1/shifu-crd-system/Deployment/shifu-crd-controller-manager,High,Writable hostPath mount,0,1,1.0
+path=4062613166/api=apps/v1/shifu-crd-system/Deployment/shifu-crd-controller-manager,High,Insecure capabilities,0,1,1.0
+path=2142509233/api=apps/v1//Deployment/pgo,High,Writable hostPath mount,0,1,1.0
+path=2142509233/api=apps/v1//Deployment/pgo,High,Insecure capabilities,0,1,1.0
+path=1799285622/api=apps/v1/default/Deployment/kubeshark-front,High,Writable hostPath mount,0,1,1.0
+path=1799285622/api=apps/v1/default/Deployment/kubeshark-front,High,Insecure capabilities,0,1,1.0
+path=112533341/api=apps/v1//Deployment/argocd-applicationset-controller,High,Writable hostPath mount,0,1,1.0
+path=112533341/api=apps/v1//Deployment/argocd-applicationset-controller,High,Insecure capabilities,0,1,1.0
+path=1887635041/api=apps/v1/kong/Deployment/proxy-kong,High,Writable hostPath mount,0,1,1.0
+path=1887635041/api=apps/v1/kong/Deployment/proxy-kong,High,Insecure capabilities,0,1,1.0
+path=3759557304/api=apps/v1//Deployment/reviews-v3,High,Writable hostPath mount,0,1,1.0
+path=3759557304/api=apps/v1//Deployment/reviews-v3,High,Insecure capabilities,0,1,1.0
+path=3453550364/api=apps/v1//Deployment/grafana,High,Writable hostPath mount,0,1,1.0
+path=3453550364/api=apps/v1//Deployment/grafana,High,Insecure capabilities,0,1,1.0
+path=2139103785/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=2139103785/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=78978103/api=apps/v1//Deployment/argocd-notifications-controller,High,Writable hostPath mount,0,1,1.0
+path=78978103/api=apps/v1//Deployment/argocd-notifications-controller,High,Insecure capabilities,0,1,1.0
+path=656783451/api=apps/v1//Deployment/nginx-deployment,High,Writable hostPath mount,0,1,1.0
+path=656783451/api=apps/v1//Deployment/nginx-deployment,High,Insecure capabilities,0,1,1.0
+path=383478079/api=apps/v1/kong/Deployment/proxy-kong,High,Writable hostPath mount,0,1,1.0
+path=383478079/api=apps/v1/kong/Deployment/proxy-kong,High,Insecure capabilities,0,1,1.0
+path=2874614311/api=apps/v1//Deployment/httpbin,High,Writable hostPath mount,0,1,1.0
+path=2874614311/api=apps/v1//Deployment/httpbin,High,Insecure capabilities,0,1,1.0
+path=3969327777/api=apps/v1//Deployment/sleep,High,Writable hostPath mount,0,1,1.0
+path=3969327777/api=apps/v1//Deployment/sleep,High,Insecure capabilities,0,1,1.0
+path=2063559850/api=apps/v1//DaemonSet/longhorn-iscsi-selinux-workaround,High,Writable hostPath mount,0,1,1.0
+path=2063559850/api=apps/v1//DaemonSet/longhorn-iscsi-selinux-workaround,High,Insecure capabilities,0,1,1.0
+path=2438857485/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=2438857485/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=3058757505/api=apps/v1/litmus/Deployment/litmusportal-frontend,High,Writable hostPath mount,0,1,1.0
+path=3058757505/api=apps/v1/litmus/Deployment/litmusportal-frontend,High,Insecure capabilities,0,1,1.0
+path=645272449/api=apps/v1/infra/Deployment/test-receiver,High,Writable hostPath mount,0,1,1.0
+path=645272449/api=apps/v1/infra/Deployment/test-receiver,High,Insecure capabilities,0,1,1.0
+path=2375750594/api=apps/v1//Deployment/helloworld-v2,High,Writable hostPath mount,0,1,1.0
+path=2375750594/api=apps/v1//Deployment/helloworld-v2,High,Insecure capabilities,0,1,1.0
+path=2138472204/api=apps/v1/infra/Deployment/test-receiver,High,Writable hostPath mount,0,1,1.0
+path=2138472204/api=apps/v1/infra/Deployment/test-receiver,High,Insecure capabilities,0,1,1.0
+path=773874935/api=apps/v1//Deployment/liveness,High,Writable hostPath mount,0,1,1.0
+path=773874935/api=apps/v1//Deployment/liveness,High,Insecure capabilities,0,1,1.0
+path=1682537694/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Writable hostPath mount,0,1,1.0
+path=1682537694/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Insecure capabilities,0,1,1.0
+path=1719009140/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Writable hostPath mount,1,1,0.0
+path=1719009140/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Insecure capabilities,1,1,0.0
+path=2163064971/api=apps/v1/flux-system/Deployment/credentials-sync,High,Writable hostPath mount,0,1,1.0
+path=2163064971/api=apps/v1/flux-system/Deployment/credentials-sync,High,Insecure capabilities,0,1,1.0
+path=2039446149/api=apps/v1/mongodb/Deployment/mongodb-enterprise-operator,High,Writable hostPath mount,0,1,1.0
+path=2039446149/api=apps/v1/mongodb/Deployment/mongodb-enterprise-operator,High,Insecure capabilities,0,1,1.0
+path=1130621443/api=apps/v1//Deployment/jaeger-operator,High,Writable hostPath mount,0,1,1.0
+path=1130621443/api=apps/v1//Deployment/jaeger-operator,High,Insecure capabilities,0,1,1.0
+path=2254878061/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=2254878061/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=3246663347/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=3246663347/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=1015071526/api=apps/v1//Deployment/dubbo-admin,High,Writable hostPath mount,0,1,1.0
+path=1015071526/api=apps/v1//Deployment/dubbo-admin,High,Insecure capabilities,0,1,1.0
+path=300564866/api=apps/v1//Deployment/mongodb-v1,High,Writable hostPath mount,0,1,1.0
+path=300564866/api=apps/v1//Deployment/mongodb-v1,High,Insecure capabilities,0,1,1.0
+path=3165490532/api=apps/v1//Deployment/fortio-deploy,High,Writable hostPath mount,0,1,1.0
+path=3165490532/api=apps/v1//Deployment/fortio-deploy,High,Insecure capabilities,0,1,1.0
+path=1881366996/api=apps/v1//Deployment/argo-rollouts-dashboard,High,Writable hostPath mount,0,1,1.0
+path=1881366996/api=apps/v1//Deployment/argo-rollouts-dashboard,High,Insecure capabilities,0,1,1.0
+path=3716475506/api=apps/v1/default/Deployment/nacos-operator,High,Writable hostPath mount,0,1,1.0
+path=3716475506/api=apps/v1/default/Deployment/nacos-operator,High,Insecure capabilities,0,1,1.0
+path=3541980985/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=3541980985/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=2584974463/api=apps/v1/litmus/Deployment/litmusportal-auth-server,High,Writable hostPath mount,0,1,1.0
+path=2584974463/api=apps/v1/litmus/Deployment/litmusportal-auth-server,High,Insecure capabilities,0,1,1.0
+path=2340435213/api=apps/v1//Deployment/argocd-applicationset-controller,High,Writable hostPath mount,0,1,1.0
+path=2340435213/api=apps/v1//Deployment/argocd-applicationset-controller,High,Insecure capabilities,0,1,1.0
+path=3865831022/api=apps/v1/monitoring/Deployment/prometheus-blackbox-exporter,High,Writable hostPath mount,0,1,1.0
+path=3865831022/api=apps/v1/monitoring/Deployment/prometheus-blackbox-exporter,High,Insecure capabilities,0,1,1.0
+path=3046565466/api=apps/v1/flux-system/Deployment/credentials-sync,High,Writable hostPath mount,0,1,1.0
+path=3046565466/api=apps/v1/flux-system/Deployment/credentials-sync,High,Insecure capabilities,0,1,1.0
+path=1034943055/api=apps/v1/kubeeye-system/Deployment/kubebench,High,Writable hostPath mount,0,1,1.0
+path=1034943055/api=apps/v1/kubeeye-system/Deployment/kubebench,High,Insecure capabilities,0,1,1.0
+path=2792648562/api=apps/v1//Deployment/ratings-v1,High,Writable hostPath mount,0,1,1.0
+path=2792648562/api=apps/v1//Deployment/ratings-v1,High,Insecure capabilities,0,1,1.0
+path=1992395695/api=apps/v1/sock-shop/Deployment/catalogue,High,Writable hostPath mount,0,1,1.0
+path=1992395695/api=apps/v1/sock-shop/Deployment/catalogue,High,Insecure capabilities,0,1,1.0
+path=272458930/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=272458930/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=3422437062/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=3422437062/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=2396509847/api=apps/v1/kube-system/DaemonSet/node-problem-detector,High,Writable hostPath mount,0,1,1.0
+path=2396509847/api=apps/v1/kube-system/DaemonSet/node-problem-detector,High,Insecure capabilities,0,1,1.0
+path=1431840962/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=1431840962/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=2807370447/api=apps/v1/monitoring/Deployment/prometheus-blackbox-exporter,High,Writable hostPath mount,0,1,1.0
+path=2807370447/api=apps/v1/monitoring/Deployment/prometheus-blackbox-exporter,High,Insecure capabilities,0,1,1.0
+path=2462538788/api=apps/v1/webapp/Deployment/backend,High,Writable hostPath mount,0,1,1.0
+path=2462538788/api=apps/v1/webapp/Deployment/backend,High,Insecure capabilities,0,1,1.0
+path=4108077675/api=apps/v1/longhorn-system/Deployment/longhorn-driver-deployer,High,Writable hostPath mount,0,1,1.0
+path=4108077675/api=apps/v1/longhorn-system/Deployment/longhorn-driver-deployer,High,Insecure capabilities,0,1,1.0
+path=3588523079/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=3588523079/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=2686921941/api=apps/v1/monitoring/Deployment/prometheus-adapter,High,Writable hostPath mount,0,1,1.0
+path=2686921941/api=apps/v1/monitoring/Deployment/prometheus-adapter,High,Insecure capabilities,0,1,1.0
+path=2469310136/api=apps/v1/infra/Deployment/test-receiver,High,Writable hostPath mount,0,1,1.0
+path=2469310136/api=apps/v1/infra/Deployment/test-receiver,High,Insecure capabilities,0,1,1.0
+path=2293770906/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=2293770906/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=1920279878/api=apps/v1/monitoring/DaemonSet/node-exporter,High,Writable hostPath mount,1,1,0.0
+path=1920279878/api=apps/v1/monitoring/DaemonSet/node-exporter,High,Insecure capabilities,0,1,1.0
+path=1097195185/api=apps/v1//Deployment/argocd-repo-server,High,Writable hostPath mount,0,1,1.0
+path=1097195185/api=apps/v1//Deployment/argocd-repo-server,High,Insecure capabilities,0,1,1.0
+path=2392528213/api=apps/v1//Deployment/helloworld-v1,High,Writable hostPath mount,0,1,1.0
+path=2392528213/api=apps/v1//Deployment/helloworld-v1,High,Insecure capabilities,0,1,1.0
+path=3534393374/api=apps/v1/kadalu/Deployment/operator,High,Writable hostPath mount,0,1,1.0
+path=3534393374/api=apps/v1/kadalu/Deployment/operator,High,Insecure capabilities,0,1,1.0
+path=3832842237/api=apps/v1//Deployment/pgo,High,Writable hostPath mount,0,1,1.0
+path=3832842237/api=apps/v1//Deployment/pgo,High,Insecure capabilities,0,1,1.0
+path=2785136522/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Writable hostPath mount,1,1,0.0
+path=2785136522/api=apps/v1/kadalu/DaemonSet/kadalu-csi-nodeplugin,High,Insecure capabilities,1,1,0.0
+path=2876645512/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=2876645512/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=2481557624/api=apps/v1//Deployment/chaos-exporter,High,Writable hostPath mount,0,1,1.0
+path=2481557624/api=apps/v1//Deployment/chaos-exporter,High,Insecure capabilities,0,1,1.0
+path=1539772306/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=1539772306/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=1183087878/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1183087878/api=apps/v1/kuma-system/StatefulSet/controller-manager,High,Insecure capabilities,0,1,1.0
+path=250963839/api=apps/v1//Deployment/vote,High,Writable hostPath mount,0,1,1.0
+path=250963839/api=apps/v1//Deployment/vote,High,Insecure capabilities,0,1,1.0
+path=2038695053/api=apps/v1//Deployment/productpage-v1,High,Writable hostPath mount,0,1,1.0
+path=2038695053/api=apps/v1//Deployment/productpage-v1,High,Insecure capabilities,0,1,1.0
+path=1049125148/api=apps/v1//StatefulSet/nacos,High,Writable hostPath mount,0,1,1.0
+path=1049125148/api=apps/v1//StatefulSet/nacos,High,Insecure capabilities,0,1,1.0
+path=1519684602/api=apps/v1/monitoring/Deployment/mysql-exporter,High,Writable hostPath mount,0,1,1.0
+path=1519684602/api=apps/v1/monitoring/Deployment/mysql-exporter,High,Insecure capabilities,0,1,1.0
+path=1002396882/api=apps/v1/litmus/Deployment/chaos-exporter,High,Writable hostPath mount,0,1,1.0
+path=1002396882/api=apps/v1/litmus/Deployment/chaos-exporter,High,Insecure capabilities,0,1,1.0
+path=2213749536/api=/v1//Pod/tie-breaker-pod,High,Writable hostPath mount,0,1,1.0
+path=2213749536/api=/v1//Pod/tie-breaker-pod,High,Insecure capabilities,0,1,1.0
+path=4167537219/api=apps/v1//Deployment/ratings-v1,High,Writable hostPath mount,0,1,1.0
+path=4167537219/api=apps/v1//Deployment/ratings-v1,High,Insecure capabilities,0,1,1.0
+path=2496853807/api=apps/v1//Deployment/litmusportal-auth-server,High,Writable hostPath mount,0,1,1.0
+path=2496853807/api=apps/v1//Deployment/litmusportal-auth-server,High,Insecure capabilities,0,1,1.0
+path=2109567727/api=apps/v1//Deployment/jaeger-operator,High,Writable hostPath mount,0,1,1.0
+path=2109567727/api=apps/v1//Deployment/jaeger-operator,High,Insecure capabilities,0,1,1.0
+path=312683172/api=apps/v1/shifu-crd-system/Deployment/shifu-crd-controller-manager,High,Writable hostPath mount,0,1,1.0
+path=312683172/api=apps/v1/shifu-crd-system/Deployment/shifu-crd-controller-manager,High,Insecure capabilities,0,1,1.0
+path=292718901/api=apps/v1/kadalu/Deployment/operator,High,Writable hostPath mount,0,1,1.0
+path=292718901/api=apps/v1/kadalu/Deployment/operator,High,Insecure capabilities,0,1,1.0
+path=1694899372/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=1694899372/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=2931406075/api=apps/v1//Deployment/chaos-operator-ce,High,Writable hostPath mount,0,1,1.0
+path=2931406075/api=apps/v1//Deployment/chaos-operator-ce,High,Insecure capabilities,0,1,1.0
+path=2739609319/api=apps/v1//Deployment/reviews-v2,High,Writable hostPath mount,0,1,1.0
+path=2739609319/api=apps/v1//Deployment/reviews-v2,High,Insecure capabilities,0,1,1.0
+path=3890614875/api=apps/v1/flux-system/Deployment/credentials-sync,High,Writable hostPath mount,0,1,1.0
+path=3890614875/api=apps/v1/flux-system/Deployment/credentials-sync,High,Insecure capabilities,0,1,1.0
+path=2953020533/api=apps/v1//Deployment/subscriber,High,Writable hostPath mount,0,1,1.0
+path=2953020533/api=apps/v1//Deployment/subscriber,High,Insecure capabilities,0,1,1.0
+path=2057481215/api=apps/v1/monitoring/Deployment/grafana,High,Writable hostPath mount,0,1,1.0
+path=2057481215/api=apps/v1/monitoring/Deployment/grafana,High,Insecure capabilities,0,1,1.0
+path=2434941105/api=apps/v1/default/StatefulSet/grafana,High,Writable hostPath mount,0,1,1.0
+path=2434941105/api=apps/v1/default/StatefulSet/grafana,High,Insecure capabilities,0,1,1.0
+path=1923659172/api=apps/v1/system/Deployment/controller-manager,High,Writable hostPath mount,0,1,1.0
+path=1923659172/api=apps/v1/system/Deployment/controller-manager,High,Insecure capabilities,0,1,1.0
+path=2100724575/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Writable hostPath mount,0,1,1.0
+path=2100724575/api=apps/v1/flux-system/Deployment/credentials-sync-eventhub,High,Insecure capabilities,0,1,1.0
+path=357369471/api=apps/v1//DaemonSet/longhorn-spdk-setup,High,Writable hostPath mount,0,1,1.0
+path=357369471/api=apps/v1//DaemonSet/longhorn-spdk-setup,High,Insecure capabilities,0,1,1.0
+path=1689358509/api=apps/v1/kube-system/DaemonSet/csi-secrets-store,High,Writable hostPath mount,1,1,0.0
+path=1689358509/api=apps/v1/kube-system/DaemonSet/csi-secrets-store,High,Insecure capabilities,0,1,1.0
+path=984811215/api=apps/v1//Deployment/argocd-redis,High,Writable hostPath mount,0,1,1.0
+path=984811215/api=apps/v1//Deployment/argocd-redis,High,Insecure capabilities,0,1,1.0
+path=1774330083/api=apps/v1//Deployment/cache,High,Writable hostPath mount,0,1,1.0
+path=1774330083/api=apps/v1//Deployment/cache,High,Insecure capabilities,0,1,1.0
+path=1043666762/api=apps/v1//Deployment/argocd-server,High,Writable hostPath mount,0,1,1.0
+path=1043666762/api=apps/v1//Deployment/argocd-server,High,Insecure capabilities,0,1,1.0
+path=2075904032/api=apps/v1/sock-shop/Deployment/shipping,High,Writable hostPath mount,0,1,1.0
+path=2075904032/api=apps/v1/sock-shop/Deployment/shipping,High,Insecure capabilities,0,1,1.0
+path=1947925840/api=apps/v1//Deployment/redis,High,Writable hostPath mount,0,1,1.0
+path=1947925840/api=apps/v1//Deployment/redis,High,Insecure capabilities,0,1,1.0
+path=2051183812/api=apps/v1//Deployment/details-v2,High,Writable hostPath mount,0,1,1.0
+path=2051183812/api=apps/v1//Deployment/details-v2,High,Insecure capabilities,0,1,1.0
+path=1988362196/api=apps/v1//Deployment/reviews-v3,High,Writable hostPath mount,0,1,1.0
+path=1988362196/api=apps/v1//Deployment/reviews-v3,High,Insecure capabilities,0,1,1.0
+path=2679063723/api=apps/v1//Deployment/helloworld-v1,High,Writable hostPath mount,0,1,1.0
+path=2679063723/api=apps/v1//Deployment/helloworld-v1,High,Insecure capabilities,0,1,1.0
+path=2327323935/api=apps/v1//Deployment/pgo,High,Writable hostPath mount,0,1,1.0
+path=2327323935/api=apps/v1//Deployment/pgo,High,Insecure capabilities,0,1,1.0
+path=437475228/api=apps/v1//Deployment/ambassador,High,Writable hostPath mount,0,1,1.0
+path=437475228/api=apps/v1//Deployment/ambassador,High,Insecure capabilities,0,1,1.0
+path=722220371/api=apps/v1/kong/Deployment/ingress-kong,High,Writable hostPath mount,0,1,1.0
+path=722220371/api=apps/v1/kong/Deployment/ingress-kong,High,Insecure capabilities,0,1,1.0
+path=947301441/api=apps/v1//Deployment/kuberay-apiserver,High,Writable hostPath mount,0,1,1.0
+path=947301441/api=apps/v1//Deployment/kuberay-apiserver,High,Insecure capabilities,0,1,1.0
+path=1144881098/api=apps/v1//Deployment/ratings-v1,High,Writable hostPath mount,0,1,1.0
+path=1144881098/api=apps/v1//Deployment/ratings-v1,High,Insecure capabilities,0,1,1.0
+path=3709757175/api=apps/v1//StatefulSet/argocd-application-controller,High,Writable hostPath mount,0,1,1.0
+path=3709757175/api=apps/v1//StatefulSet/argocd-application-controller,High,Insecure capabilities,0,1,1.0
+path=890092790/api=apps/v1/istio-system/Deployment/grafana,High,Writable hostPath mount,0,1,1.0
+path=890092790/api=apps/v1/istio-system/Deployment/grafana,High,Insecure capabilities,0,1,1.0
+path=859112953/api=apps/v1//Deployment/argocd-applicationset-controller,High,Writable hostPath mount,0,1,1.0
+path=859112953/api=apps/v1//Deployment/argocd-applicationset-controller,High,Insecure capabilities,0,1,1.0

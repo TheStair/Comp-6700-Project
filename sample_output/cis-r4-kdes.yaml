@@ -1,0 +1,127 @@
+zero-shot:
+  element1:
+    name: Boundary Defense
+    requirements:
+    - v7
+    - 12
+    - 5.4.4 Ensure Only Approved Ports, Protocols and Services Are Running
+    - 9.2 Ensure Only Approved Ports, Protocols and Services Are Running
+    - 9.4 Encrypt Traffic to HTTPS Load Balancers with TLS Certificates (Manual)
+  element2:
+    name: Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+      (Automated)
+    requirements:
+    - 24
+    - 27
+    - 30
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+    name: Implement and Manage a Firewall on Servers
+    requirements:
+    - v7
+    - 12
+    - 5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+    - 9.2 Ensure Only Approved Ports, Protocols and Services Are Running
+    - 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  element2:
+    name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+    requirements:
+    - restrict_administrator_privileges_to_dedicated_administrator_accounts
+    - restrict_administrator_privileges_to_dedicated_administrator_accounts
+    - restrict_administrator_privileges_to_dedicated_administrator_accounts
+  element3:
+    name: Minimize Access to Secrets
+    requirements:
+    - minimize_access_to_secrets
+    - minimize_access_to_secrets
+    - minimize_access_to_secrets
+  element4:
+    name: Establish and Maintain a Secure Configuration Process
+    requirements:
+    - establish_and_maintain_a_secure_configuration_process
+    - establish_and_maintain_a_secure_configuration_process
+    - establish_and_maintain_a_secure_configuration_process
+  element5:
+    name: Minimize Wildcard Use in Roles and ClusterRoles
+    requirements:
+    - minimize_wildcard_use_in_roles_and_clusterroles
+    - minimize_wildcard_use_in_roles_and_clusterroles
+    - minimize_wildcard_use_in_roles_and_clusterroles
+  element6:
+    name: Use Unique Passwords
+    requirements:
+    - use_unique_passwords
+    - use_unique_passwords
+    - use_unique_passwords
+  name: Image Vulnerability Scanning
+  requirements:
+  - image-scanning
+  - aws ecr describe-repositories
+  - aws ecr create-repository
+  - aws ecr put-image-scanning-configuration
+  - automated vulnerability scans
+  - SCAP-compliant vulnerability scanning tool
+  - weekly or more frequent scans
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+    element2:
+      name: Encrypt Traffic to HTTPS Load Balancers with TLS Certificates
+    element3:
+      name: Ensure Only Approved Ports, Protocols and Services Are Running
+    element4:
+      name: Encrypt Sensitive Data in Transit
+    name: Boundary Defense
+    requirements:
+    - v7
+    - 12
+    - 5.4.4 Ensure Only Approved Ports, Protocols and Services Are Running
+    - 9.2 Ensure Only Approved Ports, Protocols and Services Are Running
+    - 9.4 Apply Host-based Firewalls or Port Filtering
+  element2:
+    name: Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+      (Automated)
+    requirements:
+    - 24
+    - 27
+    - 30
+  element3:
+    name: Ensure that the kubelet configuration file has permissions set to 644 or
+      more restrictive (Automated)
+    requirements:
+    - 27
+    - 30
+  element4:
+    name: Ensure that the kubelet configuration file ownership is set to root:root
+      (Automated)
+    requirements:
+    - 30
+  element5:
+    name: Ensure that the kubelet configuration file has permissions set to 644 or
+      more restrictive (Automated)
+    requirements:
+    - 33
+  name: Ensure network-based URL Filters
+  requirements:
+  - enforce network-based URL filters
+  - ensure clusters are created with Private Nodes (Automated)
+  - disable public IP addresses for EKS nodegroup nodes using the AWS CLI
+  - restrict access to the control plane endpoint using aws eks update-cluster-config
+
+few-shot:
+  element1:
+    name: Restrict Administrator Privileges
+    requirements:
+    - Administrator privileges restricted to dedicated administrator accounts
+
+chain-of-thought: {}
+

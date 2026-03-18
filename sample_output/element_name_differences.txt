@@ -1,0 +1,5 @@
+Boundary Defense
+Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+Restrict Administrator Privileges

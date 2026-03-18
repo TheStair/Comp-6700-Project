@@ -1,0 +1,892 @@
+zero-shot:
+  element1:
+  - A concise element name: KDE
+  - All requirements that map to that element:
+    - o Manual (5.6.1)
+    - o Enable audit Logs (5.6.1)
+    - o Ensure Audit Logs (5.6.1)
+    - o Minimize audit Logs (5.6.1)
+    - o Enable audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1)
+    - o Audit Logs (5.6.1
+  element2:
+    name: Identity and Access Management (IAM)
+    requirements:
+    - o Prefer using dedicated EKS Service Accounts (Manual)
+    - o Ensure clusters are created with Private Endpoint Enabled and Public Access
+      Disabled (Manual)
+    - o Ensure clusters are created with Private Nodes (Manual)
+    - o Ensure Network Policy is Enabled and set as appropriate (Manual)
+    - o Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  element3:
+    name: AWS EKS Key Management Service
+    requirements:
+    - o Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs)
+      managed in AWS KMS (Manual)
+    - o Restrict Access to the Control Plane Endpoint (Manual)
+  element4:
+    name: Cluster Networking
+    requirements:
+    - o Restrict Access to the Control Plane Endpoint (Manual)
+    - o Ensure clusters are created with Private Endpoint Enabled and Public Access
+      Disabled (Manual)
+    - o Ensure clusters are created with Private Nodes (Manual)
+    - o Ensure Network Policy is Enabled and set as appropriate (Manual)
+    - o Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  element5:
+    name: Authentication and Authorization
+    requirements:
+    - o Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes (Manual)
+  element6:
+    name: Network Policies
+    requirements:
+    - Ensure CNI plugin supports network policies.
+    - Review the documentation of CNI plugin in use by the cluster, and confirm that
+      it supports network policies.
+    - Perform automated application patch management on a monthly, or more frequent,
+      basis.
+  element7:
+    name: Application Patch Management
+    requirements:
+    - Perform application updates on enterprise assets through automated patch management
+      on a monthly, or more frequent, basis.
+    - CIS Controls: null
+      Control: v8
+      Version: v8
+
+few-shot:
+  element1:
+    name: Kubernetes RBAC
+    requirements:
+    - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+  - A concise element name: KDE
+  - Requirements that map to that element:
+    - 5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or
+      a third party provider
+    - 5.1.2 Minimize access to secrets
+    - 5.1.3 Minimize wildcard use in Roles and ClusterRoles
+    - 5.1.4 Minimize access to create pods
+    - 5.1.5 Ensure default service accounts are not actively used.
+    - 5.1.6 Ensure Service Account Tokens are only mounted where necessary
+    - 5.1.7 Ensure that default value is updated
+    - 5.1.8 Ensure default value is updated
+    - 5.1.9 Ensure default value is updated
+    - 5.1.10 Ensure default value is updated
+    - 5.1.11 Ensure default value is updated
+    - 5.1.12 Ensure default value is updated
+    - 5.1.13 Ensure default value is updated
+    - 5.1.14 Ensure default value is updated
+    - 5.1.15 Ensure default value is updated
+    - 5.1.16 Ensure default value is updated
+    - 5.1.17 Ensure default value is updated
+    - 5.1.18 Ensure default value is updated
+    - 5.1.19 Ensure default value is updated
+    - 5.1.20 Ensure default value is updated
+    - 5.1.21 Ensure default value is updated
+    - 5.1.22 Ensure default value is updated
+    - 5.1.23 Ensure default value is updated
+    - 5.1.24 Ensure default value is updated
+    - 5.1.25 Ensure default value is updated
+    - 5.1.26 Ensure default value is updated
+    - 5.1.27 Ensure default value is updated
+    - 5.1.28 Ensure default value is updated
+    - 5.1.29 Ensure default value is updated
+    - 5.1.30 Ensure default value is updated
+    - 5.1.31 Ensure default value is updated
+    - 5.1.32 Ensure default value is updated
+    - 5.1.33 Ensure default value is updated
+    - 5.1.34 Ensure default value is updated
+    - 5.1.35 Ensure default value is updated
+    - 5.1.36 Ensure default value is updated
+    - 5.1.37 Ensure default value is updated
+    - 5.1.38 Ensure default value is updated
+    - 5.1.39 Ensure default value is updated
+    - 5.1.40 Ensure default value is updated
+    - 5.1.41 Ensure default value is updated
+    - 5.1.42 Ensure default value is updated
+    - 5.1.43 Ensure default value is updated
+    - 5.1.44 Ensure default value is updated
+    - 5.1.45 Ensure default value is updated
+    - 5.1.46 Ensure default value is updated
+    - 5.1.47 Ensure default value is updated
+    - 5.1.48 Ensure default value is updated
+    - 5.1.49 Ensure default value is updated
+    - 5.1.50 Ensure default value is updated
+    - 5.1.51 Ensure default value is updated
+    - 5.1.52 Ensure default value is updated
+    - 5.1.53 Ensure default value is updated
+    - 5.1.54 Ensure default value is updated
+    - 5.1.55 Ensure default value is updated
+    - 5.1.56 Ensure default value is updated
+    - 5.1.57 Ensure default value is updated
+    - 5.1.58 Ensure default value is updated
+    - 5.1.59 Ensure default value is updated
+    - 5.1.60 Ensure default value is updated
+    - 5.1.61 Ensure default value is updated
+    - 5.1.62 Ensure default value is updated
+    - 5.1.63 Ensure default value is updated
+    - 5.1.64 Ensure default value is updated
+    - 5
+  element2:
+    name: Use Unique Passwords
+    requirements:
+    - Where multi-factor authentication is not supported (such as local administrator,
+      root, or service accounts), accounts will use passwords that are unique to that
+      system.
+    - Rationale: The ability to create pods in a cluster opens up possibilities for
+        privilege escalation and should be restricted, where possible.
+    - Impact: Care should be taken not to remove access to pods to system components
+        which require this for their operation.
+    - Audit: Review the users who have create access to pod objects in the Kubernetes
+        API.
+    - Remediation: Where possible, remove create access to pod objects in the cluster.
+    - Default Value: By default, the following list of principals have create privileges
+        on pod objects
+  element3:
+    name: Minimize access to create pods (Manual)
+    requirements:
+    - Level 1
+    - Description: The ability to create pods in a namespace can provide a number
+        of opportunities for privilege escalation, such as assigning privileged service
+        accounts to these pods or mounting hostPaths with access to sensitive data
+        unless Pod Security Policies are implemented to restrict this access.
+    - Rationale: The ability to create pods in a cluster opens up possibilities for
+        privilege escalation and should be restricted, where possible.
+    - Impact: All workloads which require access to the Kubernetes API will require
+        an explicit service account to be created.
+    - Audit: Review the users who have create access to pod objects in the Kubernetes
+        API.
+    - Remediation: Where possible, remove create access to pod objects in the cluster.
+    - Default Value: By default, the following list of principals have create privileges
+        on pod objects
+  element4:
+    name: Ensure that default service accounts are not actively used.
+    requirements:
+    - Level 1
+    - Description: The default service account should not be used to ensure that rights
+        granted to applications can be more easily audited and reviewed.
+    - Rationale: Kubernetes provides a default service account which is used by cluster
+        workloads where no specific service account is assigned to the pod.
+    - Impact: All workloads which require access to the Kubernetes API will require
+        an explicit service account to be created.
+    - Audit: For each namespace in the cluster, review the rights assigned to the
+        default service account and ensure that it has no roles or cluster roles bound
+        to it apart from the defaults.
+    - Additionally ensure that the automountServiceAccountToken: false setting is
+        in place for each default service account.
+    - Remediation: Create explicit service accounts wherever a Kubernetes workload
+        requires specific access to the Kubernetes API server.
+    - Default Value: By default the default service account allows for its service
+        account token to be mounted in pods in its namespace.
+  element5:
+    name: Limit access to scripting tools
+    requirements:
+    - Level 1
+    - Description: Limit access to scripting tools (such as Microsoft PowerShell and
+        Python) to only administrative or development users with the need to access
+        those capabilities.
+    - Rationale: The ability to create pods in a cluster opens up possibilities for
+        privilege escalation and should be restricted, where possible.
+    - Impact: All workloads which require access to the Kubernetes API will require
+        an explicit service account to be created.
+    - Audit: For each namespace in the cluster, review the rights assigned to the
+        default service account and ensure that it has no roles or cluster roles bound
+        to it apart from the defaults.
+    - Additionally ensure that the automountServiceAccountToken: false setting is
+        in place for each default service account.
+    - Remediation: Create explicit service accounts
+  element6:
+    name: Authentication and Authorization
+    requirements:
+    - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+
+few-shot:
+  element1:
+    name: Kubernetes RBAC
+    requirements:
+    - Access control policies defined and maintained
+    - Role-based access control (RBAC) defined and maintained
+
+chain-of-thought: {}
+
+zero-shot:
+  CIS Controls: Controls Version Control IG 1 IG 2 IG 3 v8
+  element1:
+  - A concise element name: KDE
+  - All requirements that map to that element:
+    - o  Enable audit Logs
+    - o  Ensure audit Logs
+    - o  Enable audit Logs
+    - o  Audit Logs
+    - o  Enable Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+  element2:
+    name: Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes
+    requirements:
+    - v7 14.4 Encrypt All Sensitive Information in Transit Users must now be assigned
+      to the IAM group created to use this namespace and deploy applications. If they
+      are not they will not be able to access the namespace or deploy.
+  element3:
+    audit: Check for private endpoint access to the Kubernetes API server
+    description: Implement and manage a firewall on servers, where supported.
+    impact: Configure the EKS cluster endpoint to be private.
+    name: Implement and Manage a Firewall on Servers
+    requirements:
+    - req1
+    - req2
+  element4:
+    audit: Check for private endpoint access to the Kubernetes API server
+    description: Enforce and update network-based URL filters to limit an enterprise
+      asset from connecting to potentially malicious or unapproved websites.
+    impact: Configure the EKS cluster endpoint to be private.
+    name: Maintain and Enforce Network-Based URL Filters
+    requirements:
+    - req1
+    - req2
+  element5:
+    audit: Check for private endpoint access to the Kubernetes API server
+    description: Enforce network-based URL filters that limit a system's ability to
+      connect to websites not approved by the organization.
+    impact: Configure the EKS cluster endpoint to be private.
+    name: Maintain and Enforce Network-Based URL Filters
+    requirements:
+    - req1
+    - req2
+  element6:
+    name: Identity and Access Management
+    requirements:
+    - Prefer using dedicated EKS Service Accounts (Manual)
+    - Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed
+      in AWS KMS (Manual)
+    - Restrict Access to the Control Plane Endpoint (Manual)
+    - Ensure clusters are created with Private Endpoint Enabled and Public Access
+      Disabled (Manual)
+    - Ensure clusters are created with Private Nodes (Manual)
+    - Ensure Network Policy is Enabled and set as appropriate (Manual)
+    - Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  element7:
+    name: Authentication and Authorization
+    requirements:
+    - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes (Manual)
+
+few-shot:
+  element1:
+    name: Kubernetes RBAC
+    requirements:
+    - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes
+
+chain-of-thought: {}
+
+zero-shot:
+  CIS Controls:
+    Controls:
+    - Version: v8
+    - Control: IG 1 IG 2 IG 3
+    - Default Value: See the Amazon EKS documentation
+  element1:
+  - A concise element name: KDE
+  - All requirements that map to that element:
+    - o Manual
+    - o  Ensure Audit Logs
+    - o  Ensure that Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - o  Ensure Audit Logs
+    - null
+  element2:
+    name: Identity and Access Management (IAM)
+    requirements:
+    - o Prefer using dedicated EKS Service Accounts (Manual)
+    - o Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs)
+      managed in AWS KMS (Manual)
+  element3:
+    name: Cluster Networking
+    requirements:
+    - o Restrict Access to the Control Plane Endpoint (Manual)
+    - o Ensure clusters are created with Private Endpoint Enabled and Public Access
+      Disabled (Manual)
+    - o Ensure clusters are created with Private Nodes Enabled and Public Access Disabled
+      (Manual)
+  element4:
+    name: Authentication and Authorization
+    requirements:
+    - o Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes (Manual)
+  element5:
+    audit: Check for private endpoint access to the Kubernetes API server
+    description: Enforce network-based URL filters that limit a system's ability to
+      connect to websites not approved by the organization.
+    impact: Configure the EKS cluster endpoint to be private.
+    name: Maintain and Enforce Network-Based URL Filters
+    requirements:
+    - req1
+    - req2
+  name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+  requirements:
+  - - v7
+
+few-shot:
+  element1:
+    name: Kubernetes RBAC
+    requirements:
+    - Manage Kubernetes RBAC users with AWS IAM Authenticator
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+  - A concise element name: KDE
+  - All requirements that map to that element:
+    - o  Enable audit Logs
+    - o  Ensure audit Logs
+    - o  Enable audit Logs
+    - o  Audit Logs
+    - o  Enable audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+    - o  Audit Logs
+  element2:
+    name: Use Unique Passwords
+    requirements:
+    - Where multi-factor authentication is not supported (such as local administrator,
+      root, or service accounts), accounts will use passwords that are unique to that
+      system.
+    - Rationale: The ability to create pods in a cluster opens up possibilities for
+        privilege escalation and should be restricted, where possible.
+    - Impact: Careful should be taken not to remove access to pods to system components
+        which require this for their operation
+    - Audit: Review the users who have create access to pod objects in the Kubernetes
+        API.
+    - Remediation: Where possible, remove create access to pod objects in the cluster.
+    - Default Value: By default, the following list of principals have create privileges
+        on pod objects
+  element3:
+    name: Minimize access to create pods (Manual)
+    requirements:
+    - Profile Applicability: Level 1
+    - Description: The ability to create pods in a namespace can provide a number
+        of opportunities for privilege escalation, such as assigning privileged service
+        accounts to these pods or mounting hostPaths with access to sensitive data
+        unless Pod Security Policies are implemented to restrict this access
+    - Rationale: The ability to create pods in a cluster opens up possibilities for
+        privilege escalation and should be restricted, where possible.
+    - Impact: Careful should be taken not to remove access to pods to system components
+        which require this for their operation
+    - Audit: Review the users who have create access to pod objects in the Kubernetes
+        API.
+    - Remediation: Where possible, remove create access to pod objects in the cluster.
+    - Default Value: By default, the following list of principals have create privileges
+        on pod objects
+  element4:
+    audit:
+    - Review the users who have get, list or watch access to secrets objects in the
+      Kubernetes API.
+    name: RBAC and Service Accounts
+    remediation:
+    - Remove get, list and watch access to secret objects in the cluster.
+    - Default Value: By default, the following list of principals have get privileges
+        on secret objects
+    requirements:
+    - Ensure that the cluster-admin role is only used where and when needed (Manual)
+    - Profile Applicability:
+      - Level 1
+      - Ensure that the RBAC role cluster-admin provides wide-ranging powers over
+        the environment and should be used only where and when needed.
+    - Ensure that all users with administrative account access use a dedicated or
+      secondary account for elevated activities.
+    - Default Value: By default, a single clusterrolebinding called cluster-admin
+        is provided with the system:masters group as its principal.
+  element5:
+    audit:
+    - Review the users who have get, list or watch access to secrets objects in the
+      Kubernetes API.
+    name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+    remediation:
+    - Remove get, list and watch access to secret objects in the cluster.
+    - Default Value: By default, the following list of principals have get privileges
+        on secret objects
+    requirements:
+    - Minimize access to secrets, such as service account tokens for the Kubernetes
+      API or credentials used by workloads in the cluster.
+    - "Conduct general computing activities, such as internet browsing, email, and\
+      \ productivity suite use, from the user\u2019s primary, non-privileged account."
+    - Default Value: By default, the following list of principals have get privileges
+        on secret objects
+  element6:
+    audit:
+    - Review the users who have get, list or watch access to secrets objects in the
+      Kubernetes API.
+    name: Minimize Access to Secrets
+    requirements:
+    - Manual
+    - Minimize access to secrets
+    - Review users who have get, list or watch access to secret objects in the Kubernetes
+      API
+    - Remove get, list and watch access to secret objects in the cluster.
+    - Default Value: By default, the following list of principals have get privileges
+        on secret objects
+  element7:
+    name: Apply Security Context to Your Pods and Containers
+    requirements:
+    - Manual: Apply Security Context to Your Pods and Containers.
+  element8:
+    name: The default namespace should not be used
+    requirements:
+    - Manual: The default namespace should not be used.
+
+few-shot: {}
+
+chain-of-thought: {}
+

@@ -1,0 +1,632 @@
+zero-shot:
+  element1:
+    element2: null
+    name: Ensure clusters are created with Private Nodes (Automated)
+    requirements:
+    - ensure_clusters_are_created_with_private_nodes
+    - disable_public_ip_addresses_for_cluster_nodes
+    - enable_private_endpoint_access
+  element2: null
+  name: Maintain and Enforce Network-Based URL Filters
+  requirements:
+  - Enforce and update network-based URL filters to limit an enterprise asset from
+    connecting to potentially malicious or unapproved websites.
+  - Example implementations include category-based filtering, reputation-based filtering,
+    or through the use of block lists. Enforce filters for all enterprise assets.
+
+few-shot: {}
+
+chain-of-thought:
+  security_requirements:
+  - description: Ensures servers are protected with a firewall.
+    name: Implement and Manage a Firewall on Servers
+    related_entities:
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - v7
+    - null
+
+zero-shot:
+  element1:
+  - Boundary Defense
+  - Ensure Only Approved Ports, Protocols and Services Are Running
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Encrypt traffic to HTTPS load balancers with TLS certificates
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Manage Kubernetes
+  element2: null
+  element3:
+    description: Ensure audit logs are being collected and sent to a centralized logging
+      system.
+    from: 2.1.2
+    mitigation: Use `kubectl get --raw` to verify audit logs are being collected and
+      sent to a centralized logging system.  Check the audit logs for Kubernetes components.
+    name: Audit Logging Enabled for Kubernetes Components
+    reference: 2.1.2
+    related_controls: CIS Controls - Establish and Maintain an Audit Log Management
+      Process
+    requirements:
+    - 1
+    - 2
+    - 3
+    risk: High
+  element4:
+    description: "Verify audit logs are being monitored and managed according to the\
+      \ enterprise\u2019s audit log management process."
+    from: 2.1.2
+    mitigation: Implement or update the audit-policy.yaml to specify the audit logging
+      configuration and ensure logs are forwarded to a centralized logging system.
+    name: Audit Logging Enabled for Kubernetes Components
+    reference: 2.1.2
+    related_controls: CIS Controls - Establish and Maintain an Audit Log Management
+      Process
+    requirements:
+    - 1
+    - 2
+    - 3
+    risk: Medium
+  element5:
+    description: Verify that local logging has been enabled on all systems and networking
+      devices.
+    from: 2.1.2
+    mitigation: Ensure all systems and networking devices are configured with local
+      logging enabled.
+    name: Audit Logging Enabled for Kubernetes Components
+    reference: 2.1.2
+    related_controls: CIS Controls - Establish and Maintain an Audit Log Management
+      Process
+    requirements:
+    - 1
+    - 2
+    - 3
+    risk: Low
+  element6:
+    description: By default, Kubernetes does not enable detailed audit logging. Configuration
+      is required to enable and manage audit logs.
+    from: 2.1.2
+    mitigation: Create or update the audit-policy.yaml to specify the audit logging
+      configuration.
+    name: Audit Logging Enabled for Kubernetes Components
+    reference: 2.1.2
+    related_controls: CIS Controls - Establish and Maintain an Audit Log Management
+      Process
+    requirements:
+    - 1
+    - 2
+    - 3
+    risk: Low
+  name: Restrict user access to Amazon ECR (Manual)
+  requirements:
+  - - Restrict user access to Amazon ECR
+    - limiting interaction with build images to only authorized personnel and service
+      accounts.
+  - - To get a high-level view of how Amazon ECR and other AWS services work with
+      IAM
+    - see AWS Services That Work with IAM in the IAM User Guide.
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+  - Boundary Defense
+  - Ensure Only Approved Ports, Protocols and Services Are Running
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes
+  element2:
+  - Use an automated tool, such as host-based Data Loss Prevention, to enforce access
+    controls to data even when data is copied off a system.
+  - Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes
+    cluster (Manual)
+  - Profile Applicability: Level 1
+  - Do not generally permit containers to be run with the securityContext.privileged
+    flag set to true.
+  - Restrict Administrator Privileges to Dedicated Administrator Accounts
+  - Configure Pod Security Admission for all namespaces
+  - Remove or disable impersonate, bind and escalate permissions
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+    element2:
+      name: Ensure Only Approved Ports, Protocols and Services Are Running
+      requirements:
+      - v7
+      - v7
+      - v7
+    element3:
+      name: Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes
+      requirements:
+      - v7
+      - v7
+      - v7
+    element4:
+      name: Manage Kubernetes RBAC users with AWS CLI v1.16.156 or greater
+      requirements:
+      - v7
+      - v7
+      - v7
+    element5:
+      name: Encrypt traffic to HTTPS load balancers with TLS certificates
+      requirements:
+      - v7
+      - v7
+      - v7
+    element6:
+      name: Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes
+      requirements:
+      - v7
+      - v7
+      - v7
+    element7:
+      name: Manage Kubernetes RBAC users with AWS CLI v1.16.156 or greater
+      requirements:
+      - v7
+      - v7
+      - v7
+    name: Boundary Defense
+    requirements:
+    - v7
+    - v7
+    - v7
+  element2:
+    name: Restrict User Access to Amazon ECR
+    requirements:
+    - Minimize user access to Amazon ECR, limiting interaction with build images to
+      only authorized personnel and service accounts.
+    - "Conduct general computing activities, such as internet browsing, email, and\
+      \ productivity suite use, from the user\u2019s primary, non-privileged account."
+  element3:
+    name: IAM Access Management for Amazon ECR
+    requirements:
+    - Understand what IAM features are available to use with Amazon ECR.
+    - See AWS Services That Work with IAM in the IAM User Guide.
+
+few-shot: {}
+
+chain-of-thought:
+  recommendations:
+  - assessment_status: Automated
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+    id: 1
+    profile: Level 1
+    rationale_statement: Manage Kubernetes RBAC users with AWS IAM Authenticator for
+      Kubernetes.
+    references:
+    - 'Appendix: Summary Table'
+    - 'Appendix: CIS Controls v7 IG 1 Mapped Recommendations'
+    - 'Appendix: CIS Controls v7 IG 2 Mapped Recommendations'
+    - 'Appendix: CIS Controls v7 IG 3 Mapped Recommendations'
+    - 'Appendix: CIS Controls v7 Unmapped Recommendations'
+    - 'Appendix: CIS Controls v8 IG 1 Mapped Recommendations'
+    - 'Appendix: CIS Controls v8 IG 2 Mapped Recommendations'
+    - 'Appendix: CIS Controls v8 IG 3 Mapped Recommendations'
+    - 'Appendix: CIS Controls v8 Unmapped Recommendations'
+    tags:
+    - RBAC
+    - Kubernetes
+    - AWS
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Manual
+    description: Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 2
+    profile: Level 1
+    rationale_statement: Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    references:
+    - 'Appendix: CIS Controls v7 IG 1 Mapped Recommendations'
+    - 'Appendix: CIS Controls v7 IG 2 Mapped Recommendations'
+    - 'Appendix: CIS Controls v7 IG 3 Mapped Recommendations'
+    - 'Appendix: CIS Controls v7 Unmapped Recommendations'
+    tags:
+    - CLI
+    - AWS
+    - Automation
+    title: Upgrade to AWS CLI v1.16.156 or greater (Manual)
+  - assessment_status: Manual
+    description: Append Change History.
+    id: 3
+    profile: Level 1
+    rationale_statement: Append Change History.
+    references:
+    - 'Appendix: CIS Controls v7 IG 3 Mapped Recommendations'
+    tags:
+    - Change Management
+    title: Append Change History
+  - assessment_status: Manual
+    description: CIS Controls v7 IG 1 Mapped Recommendations
+    id: 4
+    profile: Level 1
+    rationale_statement: CIS Controls v7 IG 1 Mapped Recommendations
+    references:
+    - 'Appendix: CIS Controls v7 IG 1 Mapped Recommendations'
+    tags:
+    - CIS Controls
+    title: CIS Controls v7 IG 1 Mapped Recommendations
+  - assessment_status: Manual
+    description: CIS Controls v7 IG 2 Mapped Recommendations
+    id: 5
+    profile: Level 1
+    rationale_statement: CIS Controls v7 IG 2 Mapped Recommendations
+    references:
+    - 'Appendix: CIS Controls v7 IG 2 Mapped Recommendations'
+    tags:
+    - CIS Controls
+    title: CIS Controls v7 IG 2 Mapped Recommendations
+  - assessment_status: Manual
+    description: CIS Controls v7 IG 3 Mapped Recommendations
+    id: 6
+    profile: Level 1
+    rationale_statement: CIS Controls v7 IG 3 Mapped Recommendations
+    references:
+    - 'Appendix: CIS Controls v7 IG 3 Mapped Recommendations'
+    tags:
+    - CIS Controls
+    title: CIS Controls v7 IG 3 Mapped Recommendations
+  - assessment_status: Manual
+    description: CIS Controls v7 Unmapped Recommendations
+    id: 7
+    profile: Level 1
+    rationale_statement: CIS Controls v7 Unmapped Recommendations
+    references:
+    - 'Appendix: CIS Controls v7 Unmapped Recommendations'
+    tags:
+    - CIS Controls
+    title: CIS Controls v7 Unmapped Recommendations
+  - assessment_status: Manual
+    description: CIS Controls v8 IG 1 Mapped Recommendations
+    id: 8
+    profile: Level 1
+    rationale_statement: CIS Controls v8 IG 1 Mapped Recommendations
+    references:
+    - 'Appendix: CIS Controls v8 IG 1 Mapped Recommendations'
+    tags:
+    - CIS Controls
+    title: CIS Controls v8 IG 1 Mapped Recommendations
+  - id: 9
+    title: CIS Controls v8 IG 2 M
+
+zero-shot:
+  element1:
+  - Boundary Defense
+  - Ensure Only Approved Ports, Protocols and Services Are Running
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Authentication and Authorization
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI v1.16.156 or greater (Manual)
+  element2:
+  - v7
+  - 9.2 Ensure Only Approved Ports, Protocols and Services Are Running
+  - 9.4 Apply Host-based Firewalls or Port Filtering
+  - 16.2 Configure Centralized Point of Authentication
+  - 16.2 Configure Centralized Point of Authentication
+  name: Restrict Access to the Control Plane Endpoint
+  requirements:
+  - Enable Endpoint Private Access to restrict access to the cluster's control plane
+    to only an allowlist of authorized IPs.
+  - Check for the following to be 'enabled: true'
+  - Implement and Manage a Firewall on Servers - Implement and manage a firewall on
+    servers, where supported. - Enforce and update network-based URL filters - Enforce
+    filters for all enterprise assets.
+
+few-shot: {}
+
+chain-of-thought: {}
+

@@ -1,0 +1,349 @@
+zero-shot:
+  element1:
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI
+  - 4.1.7 Cluster Access Manager API to streamline and enhance the management of access
+    controls within EKS clusters
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+  - 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive
+  - 4.2.1 Minimize the admission of privileged containers
+  - 4.2.2 Minimize the admission of containers wishing to share the host process ID
+    namespace
+  - 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+  - 4.2.4 Minimize the admission of containers wishing to share the host network namespace
+  - 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation
+  - 4.5.3 The default namespace should not be used
+  - 4.5.3 The default namespace should not be used
+  element2:
+  - 4.1.7 Cluster Access Manager API to streamline and enhance the management of access
+    controls within EKS clusters
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+  - 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive
+  - 4.2.1 Minimize the admission of privileged containers
+  - 4.2.2 Minimize the admission of containers wishing to share the host process ID
+    namespace
+  - 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+  - 4.2.4 Minimize the admission of containers wishing to share the host network namespace
+  - 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation
+  - 4.5.3 The default namespace should not be used
+  - 4.5.3 The default namespace should not be used
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+    element10:
+      name: EKS ELS Audit Log
+      requirements:
+      - 1
+      - 2
+    element2:
+      name: EKS Certificates
+      requirements:
+      - 1
+      - 2
+    element3:
+      name: Kubernetes Version
+      requirements:
+      - 1
+      - 2
+    element4:
+      name: Service Account Tokens
+      requirements:
+      - 1
+      - 2
+    element5:
+      name: Network Policies
+      requirements:
+      - 1
+      - 2
+    element6:
+      name: Namespace Network Policies
+      requirements:
+      - 1
+      - 2
+    element7:
+      name: Secrets
+      requirements:
+      - 1
+      - 2
+    element8:
+      name: EKS Service Accounts
+      requirements:
+      - 1
+      - 2
+    element9:
+      name: Auditing
+      requirements:
+      - 1
+      - 2
+    name: EKS Host Override Recommendation
+    requirements:
+    - 1
+    - 2
+  element2:
+    name: Ensure that the kubeconfig file permissions are set to
+    requirements:
+    - 2.1.1
+    - 2.1.2
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.2.4
+    - 4.1.6
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.2.1
+    - 5.3.1
+    - 5.3.2
+    - 5.3.3
+    - 5.4.1
+    - 5.4.2
+  element3:
+    name: Ensure that the kubelet kubeconfig file ownership is set
+    requirements:
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.2.4
+    - 4.1.6
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.2.1
+    - 5.3.1
+    - 5.3.2
+    - 5.3.3
+    - 5.4.1
+    - 5.4.2
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+    name: Fargate for Untrusted Workloads
+    requirements:
+    - Ensure that the --read-only-port is disabled
+    - Add AAC for 4.1.7 Avoid use of system:masters group
+    - Add AAC for 4.3.2 Ensure that all Namespaces have Network Policies defined
+    - Minimize access to secrets
+    - Minimize access to create pods
+    - Ensure that default service accounts are not actively used
+    - Ensure that Service Account Tokens are only mounted where necessary
+    - Add AAC for 4.4.1 Prefer using secrets as files over secrets as environment
+      variables
+    - Add AAC for 5.2.1 Prefer using dedicated EKS Service Accounts
+  element2:
+    name: EKS Cluster Creation Option/s
+    requirements:
+    - Added support the latest Kubernetes version
+    - Added support the latest Kubernetes version Cluster creation option/s
+  element3:
+  - A concise element name: Hostname_PORT
+  - All requirements that map to that element:
+    - 3.2.7 Ensure that the --event
+
+few-shot: {}
+
+chain-of-thought:
+  recommendations:
+  - assessment_status: Automated
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 1
+    profile: Level 2
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: Summary Table'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Manual
+    description: Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 2
+    profile: Level 1
+    rationale: This recommendation ensures the most current and reliable command-line
+      interface for managing Kubernetes clusters.
+    references:
+    - 'Appendix: CIS Controls v7 IG 1 Mapped Recommendations'
+    title: Upgrade to AWS CLI v1.16.156 or greater (Manual)
+  - assessment_status: Automated
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 3
+    profile: Level 2
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: CIS Controls v7 IG 1 Mapped Recommendations'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Manual
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Manual Assessment and Remediation Required.
+    id: 4
+    profile: Level 1
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: CIS Controls v7 IG 2 Mapped Recommendations'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Automated
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 5
+    profile: Level 2
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: CIS Controls v7 IG 3 Mapped Recommendations'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Manual
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Manual Assessment and Remediation Required.
+    id: 6
+    profile: Level 1
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: CIS Controls v7 IG 3 Mapped Recommendations'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Automated
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 7
+    profile: Level 2
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: CIS Controls v8 IG 1 Mapped Recommendations'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Manual
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Manual Assessment and Remediation Required.
+    id: 8
+    profile: Level 1
+    rationale: This recommendation ensures consistent and secure RBAC management across
+      Kubernetes clusters, leveraging AWS IAM for authentication and authorization.
+    references:
+    - 'Appendix: CIS Controls v8 IG 2 Mapped Recommendations'
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - assessment_status: Automated
+    description: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes.
+      Upgrade to AWS CLI v1.16.156 or greater (Manual).
+    id: 9
+    profile: Level 2
+    title: Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+
+zero-shot:
+  element1:
+  - Manage Kubernetes RBAC users with AWS IAMAuthenticator for Kubernetes or Upgrade
+    to AWS CLI
+  - 4.1.7 Cluster Access Manager API to streamline and enhance the management of access
+    controls within EKS clusters
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+  - 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive
+  - 4.2.1 Minimize the admission of privileged containers
+  - 4.2.2 Minimize the admission of containers wishing to share the host process ID
+    namespace
+  - 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+  - 4.2.4 Minimize the admission of containers wishing to share the host network namespace
+  - 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation
+  - 4.5.3 The default namespace should not be used
+  element2:
+  - AAC updated and tested against Latest Cluster available v1.31
+  - 4.1.7 Cluster Access Manager API to streamline and enhance the management of access
+    controls within EKS clusters
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+  - 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive
+  - 4.2.1 Minimize the admission of privileged containers
+  - 4.2.2 Minimize the admission of containers wishing to share the host process ID
+    namespace
+  - 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+  - 4.2.4 Minimize the admission of containers wishing to share the host network namespace
+  - 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation
+  - 4.5.3 The default namespace should not be used
+  element3:
+    name: Minimize the admission of containers wishing to share the host IPC namespace
+      (Automated)
+    requirements:
+    - req1
+  element4:
+    name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+    requirements:
+    - req1
+    - req2
+  element5:
+    name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+    requirements:
+    - req1
+  element6:
+    name: Use Unique Passwords
+    requirements:
+    - use_unique_passwords
+    - use_unique_passwords
+    - use_unique_passwords
+
+few-shot: {}
+
+chain-of-thought: {}
+
+zero-shot:
+  element1:
+  - Boundary Defense
+  - Ensure Only Approved Ports, Protocols and Services Are Running
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes
+  - Define and Maintain Role-Based Access Control
+  - Configure Centralized Point of Authentication
+  - Correctly Set
+  - true
+  - false
+  - 1
+  - Control Plane Components
+  - Control Plane Configuration
+  element2:
+    name: Minimize the admission of containers wishing to share the host IPC namespace
+      (Automated)
+    requirements:
+    - req1
+    - req2
+  element3:
+    name: Minimize the admission of containers wishing to share the host IPC namespace
+      (Automated)
+    requirements:
+    - req1
+  element4:
+    name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+    requirements:
+    - req1
+    - req2
+  element5:
+    name: Restrict Administrator Privileges to Dedicated Administrator Accounts
+    requirements:
+    - req1
+
+few-shot: {}
+
+chain-of-thought: {}
+
