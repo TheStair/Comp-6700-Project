@@ -67,3 +67,6 @@ def test_generate_csv(tmp_path):
     assert "FilePath" in content
     assert "Severity" in content
     assert "Compliance score" in content
+
+
+    

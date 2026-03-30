@@ -37,16 +37,16 @@ def test_construct_cot():
 
 # ── Test 5: extract_kdes ────────────────────────────────────────────────────
 def test_extract_kdes(tmp_path):
-    mock_output = [[{
+    mock_output = [{
         "generated_text": [
             {"role": "user", "content": "prompt"},
             {"role": "assistant", "content": "element1:\n  name: Test\n  requirements:\n    - req1\n"}
         ]
-    }]]
+    }]
 
     with patch("task_1.pipe", return_value=mock_output):
         dummy_pdf = tmp_path / "test.pdf"
-        dummy_pdf.write_bytes(b"%PDF-1.4 test")  # minimal fake pdf
+        dummy_pdf.write_bytes(b"%PDF-1.4 test")
         result = extract_kdes("some document text", str(dummy_pdf))
 
     assert isinstance(result, dict)
