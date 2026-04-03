@@ -8,6 +8,8 @@ Blake Werk - jbw0082
 ## LLM
  
 This project uses **google/gemma-3-1b-it** via HuggingFace Transformers for all KDE extraction tasks (Task-1).
+
+Claude Sonnet 4.3 was used in the development of this project
  
 ## Repository Structure
  
