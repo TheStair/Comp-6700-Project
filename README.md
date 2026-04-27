@@ -144,3 +144,10 @@ pyinstaller --onefile pipeline.py --name pipeline
 ```
  
 The binary will be placed in `dist/`. PyInstaller produces a platform-native binary, so build on Linux for ELF and on Windows for PE.
+
+## Contributions
+- Task 1: Blake and Marshall
+- Task 2: Blake and Marshall
+- Task 3: Blake and Marshall
+- Repo Organization: Marshall
+- Bug Fixes: Marshall
